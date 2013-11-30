@@ -1,0 +1,81 @@
+/* This file holds all highscore mappings for the games.
+ *
+ * name: An array of games the structure is valid for.
+ * structure: Holds information about the structure of the hi file.
+ *   blocks: This basicaly stands for the nr of highscores saved
+ *   fields: Holds the information about the fields in order of appereance.
+ *     name: The name of the field. Use something descriptive here. This will be
+ *           used as header in the higscore tables.
+ *     length: The amount of bytes used by this field
+ *     format: The format of the field. The according formatter is called when
+ *             processing the higscore data. Fields without format are
+ *             considered as separators and are not being processed.
+ *     settings: Every field may have settings that are needed for processing
+ *               the field.
+ *       charMap: The character mapping to use for this field.
+ *       offset: The character offset
+ *       special: The special mapping for characters that are not in the range
+ *                of the char map.
+ */
+gameMaps = [
+  {
+    name: [
+      "1943",
+      "1943j",
+      "1943u",
+      "1943kai",
+    ],
+    structure: {
+      blocks: 5,
+      fields: [
+        {name: "score", length: 8, format: "bcd"},
+        {name: "name", length: 3, format: "fromCharMap", settings: {
+            charMap: "numericUpper",
+            special: {
+              "24": " ",
+              "2B": ".",
+              "2C": ":",
+              "3A": "&",
+              "62": "♥",
+              "64": "★",
+              "66": "!"
+            }
+          }
+        },
+        {name: "separator", length: 5}
+      ]
+    }
+  },
+  {
+    name: [
+      "dkong",
+      "dkongjo",
+      "dkongj",
+      "dkongo",
+      "dkongjo1",
+      "dkongf",
+    ],
+    structure: {
+      blocks: 5,
+      fields: [
+        {name: "UnusedA", length: 2},
+        {name: "Rank", length: 1},
+        {name: "UnusedB", length: 4},
+        {name: "score", length: 6, format: "bcd"},
+        {name: "UnusedC", length: 2},
+        {name: "name", length: 3, format: "fromCharMap", settings: {
+            charMap: "upper",
+            offset: "11",
+            special: {
+              "2B": ".",
+              "2C": ":",
+            }
+          }
+        },
+        {name: "UnusedD", length: 11},
+        {name: "ShortScore", length: 3},
+        {name: "UnusedE", length: 2},
+      ]
+    }
+  }
+];
