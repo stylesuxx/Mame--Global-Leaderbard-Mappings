@@ -110,5 +110,35 @@ gameInfos = [
       by: "score",
       order: "desc",
     },
+  },  
+  {
+    name: "elvactr",
+    fullName: "Elevator Action Returns (Ver 2.2O 1995/02/20)",
+    letter: "e",
+    order: ["score", "name"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },  
+  {
+    name: "elvactrj",
+    fullName: "Elevator Action Returns (Ver 2.2J 1995/02/20)",
+    letter: "e",
+    order: ["score", "name"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },  
+  {
+    name: "elvact2u",
+    fullName: "Elevator Action II (Ver 2.2A 1995/02/20)",
+    letter: "e",
+    order: ["score", "name"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
   },
 ];
