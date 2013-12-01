@@ -97,12 +97,25 @@ gameMaps = [
   },
   {
     name: [
+      "mslug2",
+    ],
+    structure: {
+      blocks: 10,
+      fields: [
+        {name: "score", length: 4, format: "asIs"},
+        {name: "name", length: 3, format: "ascii"},
+        {name: "trash", length: 3},
+      ]
+    }
+  },
+  {
+    name: [
       "mslugx",
     ],
     structure: {
       blocks: 9,
       fields: [
-        {name: "score", length: 4, format: "Decimal"},
+        {name: "score", length: 4, format: "asIs"},
         {name: "name", length: 3, format: "ascii"},
         {name: "trash", length: 1},
 
@@ -116,24 +129,25 @@ gameMaps = [
     structure: {
       blocks: 10,
       fields: [
-        {name: "name", length: 3, format: "formCharMap", settings:{
+        {name: "name", length: 3, format: "fromCharMap", settings:{
             charMap: "upper",
             offset: "41",
+            special: {
               "62": "$",
               "60": "@",
-              "5f": "&",
-              "5c": "_",
-              "5b": ".",
-	      "5d": "?"
+              "5F": "&",
+              "5C": "_",
+              "5B": ".",
+              "5D": "?",
               "40": " ",
-              "61": "★"
-	      "5e": "!"
-	    }
+              "61": "★",
+              "5E": "!",
+            }
           }
         },
-        {name: "score", length: 2, format: "Decimal"},
+        {name: "score", length: 2, format: "asIs"},
         {name: "trash", length: 3},
       ]
     }
-  }
+  },
 ];

@@ -10,6 +10,7 @@
 
 ##### Available Formatters
 
+* _asIs_: Mainly used for scores. _0x00013538_ is decoded to: _13538_
 * _bcd_: Mainly used for scores. _0x01FF03_ is decoded to: _12563_
 * _fromCharMap_: Mainly used for names. If this format is set, the field also needs a setting with the used char map. _0x01_ is decoded to the first character of the Char map _0x05_ to the fifth and so on.
 * _ascii_: mainly used for names. Default ASCII encoded. _0x41313f_ is decoded to _A1?_
