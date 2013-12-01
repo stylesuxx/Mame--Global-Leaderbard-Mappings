@@ -94,5 +94,18 @@ gameMaps = [
         {name: "trash", length: 1},
       ]
     }
-  }
+  },
+  {
+    name: [
+      "mslug2",
+    ],
+    structure: {
+      blocks: 10,
+      fields: [
+        {name: "score", length: 4, format: "asIs"},
+        {name: "name", length: 3, format: "ascii"},
+        {name: "trash", length: 3},
+      ]
+    }
+  },
 ];
