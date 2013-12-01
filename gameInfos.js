@@ -171,4 +171,44 @@ gameInfos = [
       order: "desc",
     },
   },
+  {
+    name: "dino",
+    fullName: "Cadillacs and Dinosaurs (World 930201)",
+    letter: "c",
+    order: ["score", "name", "character", "level"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
+  {
+    name: "dinoj",
+    fullName: "Cadillacs: Kyouryuu Shin Seiki (Japan 930201)",
+    letter: "c",
+    order: ["score", "name", "character", "level"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
+  {
+    name: "dinou",
+    fullName: "Cadillacs and Dinosaurs (USA 930201)",
+    letter: "c",
+    order: ["score", "name", "character", "level"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
+  {
+    name: "dinohunt",
+    fullName: "Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)",
+    letter: "d",
+    order: ["score", "name", "character", "level"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
 ];

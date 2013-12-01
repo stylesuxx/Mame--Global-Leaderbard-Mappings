@@ -150,4 +150,31 @@ gameMaps = [
       ]
     }
   },
+  {
+    name: [
+      "dino",
+      "dinoj",
+      "dinou",
+      "dinohunt",
+    ],
+    structure: {
+      blocks: 10,
+      fields: [
+        {name: "score", length: 4, format: "asIs"},
+        {name: "name", length: 3, format: "ascii"},
+        {name: "trash", length: 1},
+        {name: "character", length: 1, format: "specialOnly", settings: {
+            special: {
+              "00": "Jack Tenrec",
+              "01": "Mustapha Cairo",
+              "02": "Hannah Dundee",
+              "03": "Mess O'Bredovic",
+            }
+          }
+        },
+        {name: "level", length: 1, format: "asIs"},
+        {name: "trash", length: 6}
+      ]
+    }
+  },
 ];
