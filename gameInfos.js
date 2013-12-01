@@ -142,6 +142,16 @@ gameInfos = [
     },
   },
   {
+    name: "mslugx",
+    fullName: "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
+    letter: "m",
+    order: ["score", "name"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
+  {
     name: "mslug2",
     fullName: "Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)",
     letter: "m",
