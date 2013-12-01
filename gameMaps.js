@@ -77,7 +77,7 @@ gameMaps = [
         {name: "UnusedE", length: 2},
       ]
     }
-  } 
+  },
   {
     name: [
       "elvactr",
