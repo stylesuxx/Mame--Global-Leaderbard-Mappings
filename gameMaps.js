@@ -115,7 +115,7 @@ gameMaps = [
     structure: {
       blocks: 9,
       fields: [
-        {name: "score", length: 4, format: "Decimal"},
+        {name: "score", length: 4, format: "asIs"},
         {name: "name", length: 3, format: "ascii"},
         {name: "trash", length: 1},
 
