@@ -77,5 +77,22 @@ gameMaps = [
         {name: "UnusedE", length: 2},
       ]
     }
+  } 
+  {
+    name: [
+      "elvactr",
+      "elcactj",
+      "elvact2u",
+    ],
+    structure: {
+      blocks: 10,
+      fields: [
+        {name: "garbage", length: 1},
+        {name: "score", length: 3, format: "hexToDecimal"},
+        {name: "comments", length: 4},
+        {name: "name", length: 3, format: "ascii"},
+        {name: "trash", length: 1},
+      ]
+    }
   }
 ];
