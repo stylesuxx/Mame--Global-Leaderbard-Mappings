@@ -122,4 +122,32 @@ gameMaps = [
       ]
     }
   },
+  {
+    name: [
+      "simpsons",
+    ],
+    structure: {
+      blocks: 10,
+      fields: [
+        {name: "name", length: 3, format: "fromCharMap", settings:{
+            charMap: "upper",
+            offset: "41",
+            special: {
+              "62": "$",
+              "60": "@",
+              "5F": "&",
+              "5C": "_",
+              "5B": ".",
+              "5D": "?",
+              "40": " ",
+              "61": "★",
+              "5E": "!",
+            }
+          }
+        },
+        {name: "score", length: 2, format: "asIs"},
+        {name: "trash", length: 3},
+      ]
+    }
+  },
 ];

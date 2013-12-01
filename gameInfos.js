@@ -161,4 +161,14 @@ gameInfos = [
       order: "desc",
     },
   },
+  {
+    name: "simpsons",
+    fullName: "The Simpsons (4 Players World, set 1)",
+    letter: "s",
+    order: ["score", "name"],
+    sort: {
+      by: "score",
+      order: "desc",
+    },
+  },
 ];
