@@ -165,7 +165,7 @@ gameMaps = [
       "fields": [
         {"name": "trash", "length": 1},
         {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
-        {"name": "name", "lenghth": 7, "format": "ascii"}
+        {"name": "name", "length": 7, "format": "ascii"}
       ]
     }
   },
@@ -191,7 +191,7 @@ gameMaps = [
     "structure": {
       "fields": [
         {"name": "Hiscore", "length": 4},
-        {"trash": "trash", length": 16}
+        {"trash": "trash", "length": 16}
       ],
       "blocks": 10,
       "fields": [
