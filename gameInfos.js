@@ -254,7 +254,7 @@ gameInfos = [
   {
     "name": "rtypeleoj",
     "fullName": "R-Type Leo (Japan)",
-    "letter": "r":,
+    "letter": "r",
     "order": ["score", "name"],
     "sort": {
       "by": "score",
@@ -272,7 +272,7 @@ gameInfos = [
     },
   },
   {
-    "name": "rtype2"
+    "name": "rtype2",
     "fullName": "R-Type II",
     "letter": "r",
     "order": ["score", "name"],
@@ -282,7 +282,7 @@ gameInfos = [
     }
   },
   {
-    "name": "rtype2j"
+    "name": "rtype2j",
     "fullName": "R-Type II (Japan)",
     "letter": "r",
     "order": ["score", "name"],
@@ -292,14 +292,14 @@ gameInfos = [
     }
   },
   {
-    "name": "rtype2jc"
+    "name": "rtype2jc",
     "fullName": "R-Type II (Japan, revision C)",
     "letter": "r",
-    "order"; ["score", "name"],
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
-   } 
+   }
   },
   {
     "name": "simpsons",
