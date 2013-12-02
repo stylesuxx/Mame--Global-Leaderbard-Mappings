@@ -161,7 +161,7 @@ gameMaps = [
       fields:[
         {name: "score", length: 3, format: "asIs", settings:{append:"00"},
         {name: "stage", length: 1, format: "asIs"},
-        {name: "name", lenght 3, format "ascii"},
+        {name: "name", length: 3, format: "ascii"},
 	{name: "trash", lenght: 1},
       ]
     }
