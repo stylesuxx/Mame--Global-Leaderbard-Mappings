@@ -1,6 +1,6 @@
 /* This file holds all highscore mappings for the games.
  *
- * name: An array of games the structure is valid for.
+ * name": An array of games the structure is valid for.
  * structure: Holds information about the structure of the hi file.
  *   blocks: This basicaly stands for the nr of highscores saved
  *   fields: Holds the information about the fields in order of appereance.
@@ -16,22 +16,23 @@
  *       offset: The character offset
  *       special: The special mapping for characters that are not in the range
  *                of the char map.
+ *       append: Apped the provided characters on the end of the result.
  */
 gameMaps = [
   {
-    name: [
+    "name": [
       "1943",
       "1943j",
       "1943u",
-      "1943kai",
+      "1943kai"
     ],
-    structure: {
-      blocks: 5,
-      fields: [
-        {name: "score", length: 8, format: "bcd"},
-        {name: "name", length: 3, format: "fromCharMap", settings: {
-            charMap: "numericUpper",
-            special: {
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "score", "length": 8, "format": "bcd"},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "numericUpper",
+            "special": {
               "24": " ",
               "2B": ".",
               "2C": ":",
@@ -42,97 +43,96 @@ gameMaps = [
             }
           }
         },
-        {name: "separator", length: 5}
+        {"name": "separator", "length": 5}
       ]
     }
   },
   {
-    name: [
+    "name": [
       "dkong",
       "dkongjo",
       "dkongj",
       "dkongo",
       "dkongjo1",
-      "dkongf",
+      "dkongf"
     ],
-    structure: {
-      blocks: 5,
-      fields: [
-        {name: "UnusedA", length: 2},
-        {name: "Rank", length: 1},
-        {name: "UnusedB", length: 4},
-        {name: "score", length: 6, format: "bcd"},
-        {name: "UnusedC", length: 2},
-        {name: "name", length: 3, format: "fromCharMap", settings: {
-            charMap: "upper",
-            offset: "11",
-            special: {
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "UnusedA", "length": 2},
+        {"name": "Rank", "length": 1},
+        {"name": "UnusedB", "length": 4},
+        {"name": "score", "length": 6, "format": "bcd"},
+        {"name": "UnusedC", "length": 2},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "offset": "11",
+            "special": {
               "2B": ".",
-              "2C": ":",
+              "2C": ":"
             }
           }
         },
-        {name: "UnusedD", length: 11},
-        {name: "ShortScore", length: 3},
-        {name: "UnusedE", length: 2},
+        {"name": "UnusedD", "length": 11},
+        {"name": "ShortScore", "length": 3},
+        {"name": "UnusedE", "length": 2}
       ]
     }
   },
   {
-    name: [
+    "name": [
       "elvactr",
       "elcactj",
-      "elvact2u",
+      "elvact2u"
     ],
-    structure: {
-      blocks: 10,
-      fields: [
-        {name: "garbage", length: 1},
-        {name: "score", length: 3, format: "hexToDecimal"},
-        {name: "comments", length: 4},
-        {name: "name", length: 3, format: "ascii"},
-        {name: "trash", length: 1},
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "garbage", "length": 1},
+        {"name": "score", "length": 3, "format": "hexToDecimal"},
+        {"name": "comments", "length": 4},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1}
       ]
     }
   },
   {
-    name: [
-      "mslug2",
+    "name": [
+      "mslug2"
     ],
-    structure: {
-      blocks: 10,
-      fields: [
-        {name: "score", length: 4, format: "asIs"},
-        {name: "name", length: 3, format: "ascii"},
-        {name: "trash", length: 3},
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 3}
       ]
     }
   },
   {
-    name: [
-      "mslugx",
+    "name": [
+      "mslugx"
     ],
-    structure: {
-      blocks: 9,
-      fields: [
-        {name: "score", length: 4, format: "asIs"},
-        {name: "name", length: 3, format: "ascii"},
-        {name: "trash", length: 1},
-
+    "structure": {
+      "blocks": 9,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1}
       ]
     }
   },
   {
-    name: [
-      "simpsons",
+    "name": [
+      "simpsons"
     ],
-    structure: {
-      blocks: 10,
-      fields: [
-        {name: "name", length: 3, format: "fromCharMap", settings:{
-            charMap: "upper",
-            offset: "41",
-            special: {
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings":{
+            "charMap": "upper",
+            "offset": "41",
+            "special": {
               "62": "$",
               "60": "@",
               "5F": "&",
@@ -141,16 +141,17 @@ gameMaps = [
               "5D": "?",
               "40": " ",
               "61": "★",
-              "5E": "!",
+              "5E": "!"
             }
           }
         },
-        {name: "score", length: 2, format: "asIs"},
-        {name: "trash", length: 3},
+        {"name": "score", "length": 2, "format": "asIs"},
+        {"name": "trash", "length": 3}
       ]
     }
   },
   {
+<<<<<<< HEAD
     name: [
       "splatter",
       "splatterj",
@@ -166,4 +167,48 @@ gameMaps = [
       ]
     }
   },
+=======
+    "name": [
+      "dino",
+      "dinoj",
+      "dinou",
+      "dinohunt"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1},
+        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Jack Tenrec",
+              "01": "Mustapha Cairo",
+              "02": "Hannah Dundee",
+              "03": "Mess O'Bredovic"
+            }
+          }
+        },
+        {"name": "level", "length": 1, "format": "asIs"},
+        {"name": "trash", "length": 6}
+      ]
+    }
+  },
+  {
+    "name": [
+      "splatter",
+      "splatterj",
+      "splattero"
+    ],
+    "structure": {
+      "blocks": 8,
+      "fields": [
+        {"name": "score", "length": 3, "format": "asIs", "settings": {"append": "00"}},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1}
+      ]
+    }
+  }
+>>>>>>> upstream/master
 ];
