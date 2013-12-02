@@ -215,7 +215,7 @@ gameInfos = [
     name: "splatter",
     fullName: "Splatter House [World new version)",
     letter: "s",
-    order: ["score", "name"],
+    order: ["score", "name", "stage"],
     sort: {
       by: "score",
       order: "desc",
@@ -225,7 +225,7 @@ gameInfos = [
     name: "splatterj",
     fullName: "Splatter House (Japan)",
     letter: "s",
-    ordner: ["score", "name"],
+    ordner: ["score", "name", "stage"],
     sort: {
       by: "score",
       order: "desc",
@@ -235,7 +235,7 @@ gameInfos = [
     name: "splattero",
     fullName: "Splatter House (World old version)",
     letter: "s",
-    order: ["score", "name"],
+    order: ["score", "name", "stage"],
     sort: {
       by: "score",
       order: "desc",
