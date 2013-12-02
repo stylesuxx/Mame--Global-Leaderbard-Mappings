@@ -52,6 +52,46 @@ gameInfos = [
     }
   },
   {
+    "name": "dino",
+    "fullName": "Cadillacs and Dinosaurs (World 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinoj",
+    "fullName": "Cadillacs: Kyouryuu Shin Seiki (Japan 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinou",
+    "fullName": "Cadillacs and Dinosaurs (USA 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinohunt",
+    "fullName": "Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)",
+    "letter": "d",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "dkong",
     "fullName": "Donkey Kong (US set 1)",
     "letter": "d",
@@ -162,6 +202,106 @@ gameInfos = [
     }
   },
   {
+    "name": "rtype",
+    "fullName": "R-Type (World)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeb",
+    "fullName": "R-Type (World bootleg)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypej",
+    "fullName": "R-Type (Japan)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypejp",
+    "fullName": "R-Type (Japan prototype)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeleo",
+    "fullName": "R-Type Leo (World)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeleoj",
+    "fullName": "R-Type Leo (Japan)",
+    "letter": "r":,
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeu",
+    "fullName": "R-Type (US)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    },
+  },
+  {
+    "name": "rtype2"
+    "fullName": "R-Type II",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtype2j"
+    "fullName": "R-Type II (Japan)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtype2jc"
+    "fullName": "R-Type II (Japan, revision C)",
+    "letter": "r",
+    "order"; ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+   } 
+  },
+  {
     "name": "simpsons",
     "fullName": "The Simpsons (4 Players World, set 1)",
     "letter": "s",
@@ -172,48 +312,8 @@ gameInfos = [
     }
   },
   {
-    "name": "dino",
-    "fullName": "Cadillacs and Dinosaurs (World 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinoj",
-    "fullName": "Cadillacs: Kyouryuu Shin Seiki (Japan 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinou",
-    "fullName": "Cadillacs and Dinosaurs (USA 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinohunt",
-    "fullName": "Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)",
-    "letter": "d",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
     "name": "splatter",
-    "fullName": "Splatter House [World new version)",
+    "fullName": "Splatter House (World new version)",
     "letter": "s",
     "order": ["score", "name", "stage"],
     "sort": {

@@ -49,6 +49,33 @@ gameMaps = [
   },
   {
     "name": [
+      "dino",
+      "dinoj",
+      "dinou",
+      "dinohunt"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1},
+        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Jack Tenrec",
+              "01": "Mustapha Cairo",
+              "02": "Hannah Dundee",
+              "03": "Mess O'Bredovic"
+            }
+          }
+        },
+        {"name": "level", "length": 1, "format": "asIs"},
+        {"name": "trash", "length": 6}
+      ]
+    }
+  },
+  {
+    "name": [
       "dkong",
       "dkongjo",
       "dkongj",
@@ -124,6 +151,52 @@ gameMaps = [
   },
   {
     "name": [
+      "rtype",
+      "rtypeb",
+      "rtypej",
+      "rtyoejp",
+      "rtypeu"
+    ],
+    "structure": {
+      "skip": 3,
+      "blocks": 10,
+      "fields": [
+        {"name": "trash", "length": 1},
+        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "length": 7, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "rtypeleo",
+      "rtypeleoj"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 3, "foramt": "reverseDecimal", "settings": {"append": "0"}},
+        {"name": "name", "length": 5, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "rtype2",
+      "rtype2j",
+      "rtype2jc"
+    ],
+    "structure": {
+      "skip": 20,
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "reverseDecimal"},
+        {"name": "name", "length": 7, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "simpsons"
     ],
     "structure": {
@@ -147,33 +220,6 @@ gameMaps = [
         },
         {"name": "score", "length": 2, "format": "asIs"},
         {"name": "trash", "length": 3}
-      ]
-    }
-  },
-  {
-    "name": [
-      "dino",
-      "dinoj",
-      "dinou",
-      "dinohunt"
-    ],
-    "structure": {
-      "blocks": 10,
-      "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1},
-        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
-            "special": {
-              "00": "Jack Tenrec",
-              "01": "Mustapha Cairo",
-              "02": "Hannah Dundee",
-              "03": "Mess O'Bredovic"
-            }
-          }
-        },
-        {"name": "level", "length": 1, "format": "asIs"},
-        {"name": "trash", "length": 6}
       ]
     }
   },
