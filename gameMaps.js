@@ -158,9 +158,7 @@ gameMaps = [
       "rtypeu"
     ],
     "structure": {
-      "fields": [
-        {"name": "hiscore", "length": 3}
-      ],
+      "skip": 3,
       "blocks": 10,
       "fields": [
         {"name": "trash", "length": 1},
@@ -189,10 +187,7 @@ gameMaps = [
       "rtype2jc"
     ],
     "structure": {
-      "fields": [
-        {"name": "Hiscore", "length": 4},
-        {"trash": "trash", "length": 16}
-      ],
+      "skip": 20,
       "blocks": 10,
       "fields": [
         {"name": "score", "length": 4, "format": "reverseDecimal"},
