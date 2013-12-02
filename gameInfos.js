@@ -223,7 +223,7 @@ gameInfos = [
   },
   {
     "name": "rtypej",
-    "fullName": "R-Type (Japen)",
+    "fullName": "R-Type (Japan)",
     "letter": "r",
     "order": ["score", "name"],
     "sort": {
@@ -233,8 +233,28 @@ gameInfos = [
   },
   {
     "name": "rtypejp",
-    "fullName": "R-Type (Japan Prototype)",
+    "fullName": "R-Type (Japan prototype)",
     "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeleo",
+    "fullName": "R-Type Leo (World)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeleoj",
+    "fullName": "R-Type Leo (Japan)",
+    "letter": "r":,
     "order": ["score", "name"],
     "sort": {
       "by": "score",
@@ -250,6 +270,36 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     },
+  },
+  {
+    "name": "rtype2"
+    "fullName": "R-Type II",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtype2j"
+    "fullName": "R-Type II (Japan)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtype2jc"
+    "fullName": "R-Type II (Japan, revision C)",
+    "letter": "r",
+    "order"; ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+   } 
   },
   {
     "name": "simpsons",

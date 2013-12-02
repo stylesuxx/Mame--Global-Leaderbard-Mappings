@@ -171,6 +171,37 @@ gameMaps = [
   },
   {
     "name": [
+      "rtypeleo",
+      "rtypeleoj"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 3, "foramt": "reverseDecimal", "settings": {"append": "0"}},
+        {"name": "name", "length": 5, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "rtype2",
+      "rtype2j",
+      "rtype2jc"
+    ],
+    "structure": {
+      "fields": [
+        {"name": "Hiscore", "length": 4},
+        {"trash": "trash", length": 16}
+      ],
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "reverseDecimal"},
+        {"name": "name", "length": 7, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "simpsons"
     ],
     "structure": {
