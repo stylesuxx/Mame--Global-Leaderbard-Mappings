@@ -152,8 +152,10 @@ gameMaps = [
   {
     "name": [
       "rtype",
-      "rtypej"
-      "rtypeo"
+      "rtypeb",
+      "rtypej",
+      "rtyoejp",
+      "rtypeu"
     ],
     "structure": {
       "fields": [

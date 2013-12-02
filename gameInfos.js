@@ -202,33 +202,53 @@ gameInfos = [
     }
   },
   {
-    "name" : "rtype",
-    "fullName" : "R-Type (World)",
-    "letter" : "r",
+    "name": "rtype",
+    "fullName": "R-Type (World)",
+    "letter": "r",
     "order": ["score", "name"],
-    "sort" : {
+    "sort": {
       "by": "score",
       "order": "desc"
     }
   },
   {
-    "name" : "rtypej",
+    "name": "rtypeb",
+    "fullName": "R-Type (World bootleg)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypej",
     "fullName": "R-Type (Japen)",
     "letter": "r",
     "order": ["score", "name"],
-    "sort" : {
+    "sort": {
       "by": "score",
       "order": "desc"
     }
   },
   {
-    "name" : "rtypeu",
+    "name": "rtypejp",
+    "fullName": "R-Type (Japan Prototype)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "rtypeu",
     "fullName": "R-Type (US)",
     "letter": "r",
-    "order" : ["score", "name"],
-    "sort" : {
-      "by" : "score",
-      "order" : "desc"
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
     },
   },
   {
