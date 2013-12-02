@@ -52,6 +52,46 @@ gameInfos = [
     }
   },
   {
+    "name": "dino",
+    "fullName": "Cadillacs and Dinosaurs (World 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinoj",
+    "fullName": "Cadillacs: Kyouryuu Shin Seiki (Japan 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinou",
+    "fullName": "Cadillacs and Dinosaurs (USA 930201)",
+    "letter": "c",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "dinohunt",
+    "fullName": "Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)",
+    "letter": "d",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "dkong",
     "fullName": "Donkey Kong (US set 1)",
     "letter": "d",
@@ -162,56 +202,6 @@ gameInfos = [
     }
   },
   {
-    "name": "simpsons",
-    "fullName": "The Simpsons (4 Players World, set 1)",
-    "letter": "s",
-    "order": ["score", "name"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dino",
-    "fullName": "Cadillacs and Dinosaurs (World 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinoj",
-    "fullName": "Cadillacs: Kyouryuu Shin Seiki (Japan 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinou",
-    "fullName": "Cadillacs and Dinosaurs (USA 930201)",
-    "letter": "c",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-  {
-    "name": "dinohunt",
-    "fullName": "Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)",
-    "letter": "d",
-    "order": ["score", "name", "character", "level"],
-    "sort": {
-      "by": "score",
-      "order": "desc"
-    }
-  },
-    {
     "name" : "rtype",
     "fullName" : "R-Type (World)",
     "letter" : "r",
@@ -240,6 +230,16 @@ gameInfos = [
       "by" : "score",
       "order" : "desc"
     },
+  },
+  {
+    "name": "simpsons",
+    "fullName": "The Simpsons (4 Players World, set 1)",
+    "letter": "s",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   },
   {
     "name": "splatter",
