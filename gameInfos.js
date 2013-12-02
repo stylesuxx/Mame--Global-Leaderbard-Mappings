@@ -211,9 +211,39 @@ gameInfos = [
       "order": "desc"
     }
   },
+    {
+    "name" : "rtype",
+    "fullName" : "R-Type (World)",
+    "letter" : "r",
+    "order": ["score", "name"],
+    "sort" : {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name" : "rtypej",
+    "fullName": "R-Type (Japen)",
+    "letter": "r",
+    "order": ["score", "name"],
+    "sort" : {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name" : "rtypeu",
+    "fullName": "R-Type (US)",
+    "letter": "r",
+    "order" : ["score", "name"],
+    "sort" : {
+      "by" : "score",
+      "order" : "desc"
+    },
+  },
   {
     "name": "splatter",
-    "fullName": "Splatter House [World new version)",
+    "fullName": "Splatter House (World new version)",
     "letter": "s",
     "order": ["score", "name", "stage"],
     "sort": {

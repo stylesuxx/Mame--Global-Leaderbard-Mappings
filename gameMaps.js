@@ -124,6 +124,24 @@ gameMaps = [
   },
   {
     "name": [
+      "rtype",
+      "rtypej"
+      "rtypeo"
+    ],
+    "structure": {
+      "fields": [
+        {"name": "hiscore", "length": 3}
+      ],
+      "blocks": 10,
+      "fields": [
+        {"name": "trash", "length": 1},
+        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "lenghth": 7, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "simpsons"
     ],
     "structure": {
