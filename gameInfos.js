@@ -102,6 +102,66 @@ gameInfos = [
     }
   },
   {
+    "name": "avsp",
+    "fullName": "Alien vs. Predator (Euro 940520)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "avspa",
+    "fullName": "Alien vs. Predator (Asia 940520)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "avspd",
+    "fullName": "Alien vs. Predator (Euro 940520 Phoenix Edition) (bootleg)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "avsph",
+    "fullName": "Alien vs. Predator (Hispanic 940520)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "avspj",
+    "fullName": "Alien vs. Predator (Japan 940520)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "avspu",
+    "fullName": "Alien vs. Predator (USA 940520)",
+    "letter": "a",
+    "order": ["score", "name", "character", "level"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "dino",
     "fullName": "Cadillacs and Dinosaurs (World 930201)",
     "letter": "c",
