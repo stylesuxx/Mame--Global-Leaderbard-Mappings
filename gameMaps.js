@@ -49,6 +49,54 @@ gameMaps = [
   },
   {
     "name": [
+      "altbeast",
+      "altbeast2",
+      "altbeast4",
+      "altbeast5",
+      "altbeast6",
+      "mt_beast"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+      ]
+    }
+  },
+  {
+    "name": [
+      "avsp",
+      "avspa",
+      "avspd",
+      "avsph",
+      "avspj",
+      "avspu"
+    ],
+    "structure": {
+      "blocks": 50,
+      "fields": [
+        {"name": "rank", "length": 1},
+        {"name": "trash", "length": 3},
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Predator Warrior",
+              "01": "Maj. D. Schaefer",
+              "02": "Predator Hunter",
+              "03": "Lt. Linn Kurosawa"
+            }
+          }
+        },
+        {"name": "level", "length": 1, "format": "asIs"},
+        {"name": "trash", "length": 3}
+      ]
+    }
+  },
+  {
+    "name": [
       "dino",
       "dinoj",
       "dinou",
