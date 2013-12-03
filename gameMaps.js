@@ -49,6 +49,24 @@ gameMaps = [
   },
   {
     "name": [
+      "altbeast",
+      "altbeast2",
+      "altbeast4",
+      "altbeast5",
+      "altbeast6",
+      "mt_beast"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+      ]
+    }
+  },
+  {
+    "name": [
       "dino",
       "dinoj",
       "dinou",

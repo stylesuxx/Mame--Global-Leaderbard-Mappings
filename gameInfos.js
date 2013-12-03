@@ -52,6 +52,56 @@ gameInfos = [
     }
   },
   {
+    "name": "altbeast",
+    "fullName": "Altered Beast (set 8, 8751 317-0078)",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "altbeast2",
+    "fullName": "Altered Beast (set 2, MC-8123B 317-0066)",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "altbeast4",
+    "fullName": "Altered Beast (set 4, MC-8123B 317-0066))",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "altbeast5",
+    "fullName": "Altered Beast (set 5, FD1094 317-0069)",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "altbeast6",
+    "fullName": "Altered Beast (set 6, 8751 317-0076)",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "dino",
     "fullName": "Cadillacs and Dinosaurs (World 930201)",
     "letter": "c",
@@ -196,6 +246,16 @@ gameInfos = [
     "fullName": "Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)",
     "letter": "m",
     "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mt_beast",
+    "fullName": "Altered Beast (Mega-Tech)",
+    "letter": "a",
+    "order": ["score", "name", "stage"],
     "sort": {
       "by": "score",
       "order": "desc"
