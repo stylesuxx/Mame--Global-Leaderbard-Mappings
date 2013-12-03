@@ -106,7 +106,7 @@ gameMaps = [
         {"name": "score", "length": 3, "format": "asIs", "settings": {"append": "0"}},
         {"name": "round", "length": 1, "format": "hexToDecimal", "settings":{"add": 1}},
         {"name": "name", "length": 3, "format": "ascii"},
-        
+
       ]
     }
   },
@@ -181,6 +181,27 @@ gameMaps = [
         {"name": "garbage", "length": 1},
         {"name": "score", "length": 3, "format": "hexToDecimal"},
         {"name": "comments", "length": 4},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1}
+      ]
+    }
+  },
+  {
+    "name": [
+      "ffightj1",
+      "ffightj2",
+      "ffightj1",
+      "ffightua",
+      "ffightu",
+      "ffight",
+      "ffightj",
+      "ffightjh",
+      "ffightbl"
+    ],
+    "structure": {
+      "blocks": 3,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
         {"name": "name", "length": 3, "format": "ascii"},
         {"name": "trash", "length": 1}
       ]

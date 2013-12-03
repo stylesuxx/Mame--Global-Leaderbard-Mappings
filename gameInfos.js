@@ -312,6 +312,116 @@ gameInfos = [
     }
   },
   {
+    "name": "ffightj1",
+    "fullName": "Final Fight (Japan 900112)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightj2",
+    "fullName": "Final Fight (Japan 900305)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightua",
+    "fullName": "Final Fight (USA 900112)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightu",
+    "fullName": "Final Fight (USA, set 1)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightub",
+    "fullName": "Final Fight (USA 900613)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightu1",
+    "fullName": "Final Fight (USA, set 2)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffighta",
+    "fullName": "Final Fight (World, set 2)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffight",
+    "fullName": "Final Fight (World, set 1)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightj",
+    "fullName": "Final Fight (Japan)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightjh",
+    "fullName": "Street Smart / Final Fight (Japan, hack)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "ffightbl",
+    "fullName": "Final Fight (bootleg)",
+    "letter": "f",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",
