@@ -162,6 +162,26 @@ gameInfos = [
     }
   },
   {
+    "name": "bublbobl",
+    "fullName": "Bubble Bobble",
+    "letter": "b",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bub68705",
+    "fullName": "Bubble Bobble (bootleg with 68705)",
+    "letter": "b",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "dino",
     "fullName": "Cadillacs and Dinosaurs (World 930201)",
     "letter": "c",

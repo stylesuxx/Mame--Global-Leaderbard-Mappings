@@ -97,6 +97,21 @@ gameMaps = [
   },
   {
     "name": [
+      "bublbobl",
+      "bub68705"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "score", "length": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "round", "length": 1, "format": "hexToDecimal", "settings":{"add": 1}},
+        {"name": "name", "length": 3, "format": "ascii"},
+        
+      ]
+    }
+  },
+  {
+    "name": [
       "dino",
       "dinoj",
       "dinou",
