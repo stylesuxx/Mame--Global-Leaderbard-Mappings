@@ -422,6 +422,26 @@ gameInfos = [
     }
   },
   {
+    "name": "galaga88",
+    "fullName": "Galaga '88",
+    "letter": "g",
+    "order": ["score", "name", "stage", "dimension"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "galaga88j",
+    "fullName": "Galaga '88 (Japan)",
+    "letter": "g",
+    "order": ["score", "name", "stage", "dimension"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",

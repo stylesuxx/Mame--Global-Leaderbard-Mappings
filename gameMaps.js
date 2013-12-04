@@ -209,6 +209,31 @@ gameMaps = [
   },
   {
     "name": [
+      "galaga88",
+      "galaga88j"
+    ],
+    "structure": {
+      "skip": 6,
+      "blocks": 8,
+      "fields": [
+        {"name": "score", "length": 5, "format": "asIs"},
+        {"name": "trash", "length": 1},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "trash", "length": 1},
+        {"name": "dimension", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "offset": 1,
+            "special": {
+              "1B": "."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": [
       "mslug2"
     ],
     "structure": {
