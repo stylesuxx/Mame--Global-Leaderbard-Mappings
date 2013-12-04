@@ -278,6 +278,26 @@ gameMaps = [
   },
   {
     "name": [
+      "mt_orun",
+      "outrun",
+      "outrunb",
+      "outrundx",
+      "outruno",
+      "outrunra"
+      
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "route", "length": 3},
+        {"name": "record", "length": 4}
+      ]
+    }
+  },
+  {
+    "name": [
       "rtypeleo",
       "rtypeleoj"
     ],

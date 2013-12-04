@@ -472,6 +472,66 @@ gameInfos = [
     }
   },
   {
+    "name": "mt_orun",
+    "fullName": "Out Run (Mega-Tech, SMS based)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrun",
+    "fullName": "Out Run (sitdown/upright, Rev B)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrunb",
+    "fullName": "Out Run (bootleg)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrundx",
+    "fullName": "Out Run (deluxe sitdown)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outruno",
+    "fullName": "Out Run (sitdown/upright)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrunra",
+    "fullName": "Out Run (sitdown/upright, Rev A)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "rtype",
     "fullName": "R-Type (World)",
     "letter": "r",
