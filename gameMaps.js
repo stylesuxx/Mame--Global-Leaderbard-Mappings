@@ -234,6 +234,23 @@ gameMaps = [
   },
   {
     "name": [
+      "hcastle",
+      "hcastlej",
+      "hcastleo"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 2, "format": "asIs", "settings":{ "append": "00"}},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "offset": "11"} 
+      ]
+    }
+  },
+  {
+    "name": [
       "mslug2"
     ],
     "structure": {

@@ -442,6 +442,36 @@ gameInfos = [
     }
   },
   {
+    "name": "hcastle",
+    "fullName": "Haunted Castle (version M)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "hcastlej",
+    "fullName": "Akuma-Jou Dracula (Japan version P)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "hcastleo",
+    "fullName": "Haunted Castle (version K)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",
