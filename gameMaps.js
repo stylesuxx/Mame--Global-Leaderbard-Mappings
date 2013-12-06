@@ -308,6 +308,19 @@ gameMaps = [
   },
   {
     "name": [
+      "nspirit",
+      "nspiritj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "length": 9, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "mt_orun",
       "outrun",
       "outrunb",

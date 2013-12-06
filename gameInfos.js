@@ -592,6 +592,26 @@ gameInfos = [
     }
   },
   {
+    "name": "nspirit",
+    "fullName": "Ninja Spirit",
+    "letter": "n",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "nspiritj",
+    "fullName": "Saigo no Nindou (Japan)",
+    "letter": "n",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "outrun",
     "fullName": "Out Run (sitdown/upright, Rev B)",
     "letter": "o",
