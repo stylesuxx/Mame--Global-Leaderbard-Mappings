@@ -97,6 +97,27 @@ gameMaps = [
   },
   {
     "name": [
+      "bubl2000"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "trash", "length": 2},
+        {"name": "score", "length": 2, "format": "hexToDecimal", "settings": {
+            "append": "00"
+          }
+        },
+        {"name": "trash", "length": 1},
+        {"name": "name", "length": 9, "format": "ascii", "settings": {
+            "ignoreBytes": [1, 3, 5, 7]
+          }   
+        },
+        {"name": "trash", "length": 2},
+      ]
+    }
+  },
+  {
+    "name": [
       "bublbobl",
       "bub68705"
     ],
