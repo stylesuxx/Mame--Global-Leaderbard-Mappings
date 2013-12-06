@@ -472,6 +472,46 @@ gameInfos = [
     }
   },
   {
+    "name": "lwings",
+    "fullName": "Legendary Wings (US set 1)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwings2",
+    "fullName": "Legendary Wings (US set 2)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwingsb",
+    "fullName": "Legendary Wings (bootleg)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwingsj",
+    "fullName": "Ares no Tsubasa (Japan)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",

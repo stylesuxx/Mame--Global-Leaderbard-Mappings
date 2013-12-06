@@ -251,6 +251,22 @@ gameMaps = [
   },
   {
     "name": [
+      "lwings",
+      "lwings2",
+      "lwingsb",
+      "lwingsj"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 9, "format": "ascii"},
+        {"name": "trash", "length": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "mslug2"
     ],
     "structure": {
