@@ -251,6 +251,21 @@ gameMaps = [
   },
   {
     "name": [
+      "kungfub",
+      "kungfub2",
+      "kungfum",
+      "kungfumd"
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 9, "format": "ascii"},
+      ]
+    }
+  },
+  {
+    "name": [
       "lwings",
       "lwings2",
       "lwingsb",
@@ -293,31 +308,12 @@ gameMaps = [
   },
   {
     "name": [
-      "rtype",
-      "rtypeb",
-      "rtypej",
-      "rtyoejp",
-      "rtypeu"
-    ],
-    "structure": {
-      "skip": 3,
-      "blocks": 10,
-      "fields": [
-        {"name": "trash", "length": 1},
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
-        {"name": "name", "length": 7, "format": "ascii"}
-      ]
-    }
-  },
-  {
-    "name": [
       "mt_orun",
       "outrun",
       "outrunb",
       "outrundx",
       "outruno",
-      "outrunra"
-      
+      "outrunra"   
     ],
     "structure": {
       "blocks": 20,
@@ -342,6 +338,24 @@ gameMaps = [
         {"name": "score", "length": 4, "format": "asIs"},
         {"name": "stage", "length": 1, "format": "asIs"},
         {"name": "name", "length": 3, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "rtype",
+      "rtypeb",
+      "rtypej",
+      "rtyoejp",
+      "rtypeu"
+    ],
+    "structure": {
+      "skip": 3,
+      "blocks": 10,
+      "fields": [
+        {"name": "trash", "length": 1},
+        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "length": 7, "format": "ascii"}
       ]
     }
   },

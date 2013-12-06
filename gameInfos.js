@@ -472,6 +472,46 @@ gameInfos = [
     }
   },
   {
+    "name": "kungfub",
+    "fullName": "Kung-Fu Master (bootleg set 1)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kungfub2",
+    "fullName": "Kung-Fu Master (bootleg set 2)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kungfum",
+    "fullName": "Kung-Fu Master",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kunfumd,
+    "fullName": "Kung-Fu Master (Data East)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
     "name": "lwings",
     "fullName": "Legendary Wings (US set 1)",
     "letter": "l",
