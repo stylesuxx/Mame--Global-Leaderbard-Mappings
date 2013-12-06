@@ -102,8 +102,7 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "trash", "length": 2},
-        {"name": "score", "length": 2, "format": "hexToDecimal", "settings": {
+        {"name": "score", "length": 4, "format": "hexToDecimal", "settings": {
             "append": "00"
           }
         },
