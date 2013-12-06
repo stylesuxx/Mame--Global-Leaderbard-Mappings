@@ -602,6 +602,26 @@ gameInfos = [
     }
   },
   {
+    "name": "pacmania",
+    "fullName": "Pac-Mania",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pacmaniaj",
+    "fullName": "Pac-Mania (Japan)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "rtype",
     "fullName": "R-Type (World)",
     "letter": "r",
@@ -700,6 +720,26 @@ gameInfos = [
       "by": "score",
       "order": "desc"
    }
+  },
+  {
+    "name": "sc4pmani",
+    "fullName": "Pac Mania (Mazooma) (Scorpion 4) (set 1)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "sc4pmania",
+    "fullName": "Pac Mania (Mazooma) (Scorpion 4) (set 2)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   },
   {
     "name": "simpsons",

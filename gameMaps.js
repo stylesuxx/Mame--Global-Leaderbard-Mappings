@@ -331,6 +331,22 @@ gameMaps = [
   },
   {
     "name": [
+      "pacmania",
+      "pacmaniaj",
+      "sc4pmani",
+      "sc4pmania"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "rtypeleo",
       "rtypeleoj"
     ],
