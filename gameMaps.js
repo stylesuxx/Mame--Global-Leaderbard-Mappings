@@ -380,7 +380,7 @@ gameMaps = [
     "structure": {
       "blocks": 7,
       "fields": [
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings"},
+        {"name": "score", "length": 3, "format": "reverseDecimal"},
         {"name": "name", "length": 5, "format": "ascii"}
       ]
     }
