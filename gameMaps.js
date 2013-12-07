@@ -367,7 +367,7 @@ gameMaps = [
       "blocks": 10,
       "fields": [
         {"name": "trash", "length": 1},
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "score", "length": 3, "format": "reverseDecimal"},
         {"name": "name", "length": 7, "format": "ascii"}
       ]
     }
