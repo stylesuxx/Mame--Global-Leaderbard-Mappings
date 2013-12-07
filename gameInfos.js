@@ -160,6 +160,16 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
+  }, 
+  {
+    "name": "bubl2000",
+    "fullName": "Bubble 2000",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   },
   {
     "name": "bublbobl",
