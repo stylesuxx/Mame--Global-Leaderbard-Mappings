@@ -192,7 +192,7 @@ gameMaps = [
   {
     "name": [
       "elvactr",
-      "elcactj",
+      "elvactrj",
       "elvact2u"
     ],
     "structure": {
@@ -382,7 +382,7 @@ gameMaps = [
       "fields": [
         {"name": "score", "length": 4, "format": "hexToDecimal"},
         {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
-            "charMap": "numericUpper",
+            "charMap": "upperNumeric",
             "special": {
               "29": "♥",
               "28": ",",
