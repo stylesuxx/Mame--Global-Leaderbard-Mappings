@@ -262,8 +262,8 @@ gameMaps = [
     "structure": {
       "blocks": 20,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
-        {"name": "name", "length": 9, "format": "ascii"},
+        {"name": "score", "length": 3, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 3, "format": "ascii"},
       ]
     }
   },
