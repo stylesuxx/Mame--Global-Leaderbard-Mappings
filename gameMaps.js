@@ -1,23 +1,4 @@
-/* This file holds all highscore mappings for the games.
- *
- * name": An array of games the structure is valid for.
- * structure: Holds information about the structure of the hi file.
- *   blocks: This basicaly stands for the nr of highscores saved
- *   fields: Holds the information about the fields in order of appereance.
- *     name: The name of the field. Use something descriptive here. This will be
- *           used as header in the higscore tables.
- *     length: The amount of bytes used by this field
- *     format: The format of the field. The according formatter is called when
- *             processing the higscore data. Fields without format are
- *             considered as separators and are not being processed.
- *     settings: Every field may have settings that are needed for processing
- *               the field.
- *       charMap: The character mapping to use for this field.
- *       offset: The character offset
- *       special: The special mapping for characters that are not in the range
- *                of the char map.
- *       append: Apped the provided characters on the end of the result.
- */
+/* This file holds all highscore mappings for the games. */
 gameMaps = [
   {
     "name": [
