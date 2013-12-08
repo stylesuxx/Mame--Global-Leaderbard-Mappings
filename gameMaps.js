@@ -235,6 +235,54 @@ gameMaps = [
   },
   {
     "name": [
+      "hcastle",
+      "hcastlej",
+      "hcastleo"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 2, "format": "asIs", "settings":{ "append": "00"}},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "offset": "11"} 
+      ]
+    }
+  },
+  {
+    "name": [
+      "kungfub",
+      "kungfub2",
+      "kungfum",
+      "kungfumd"
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 9, "format": "ascii"},
+      ]
+    }
+  },
+  {
+    "name": [
+      "lwings",
+      "lwings2",
+      "lwingsb",
+      "lwingsj"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 9, "format": "ascii"},
+        {"name": "trash", "length": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "mslug2"
     ],
     "structure": {
@@ -261,6 +309,54 @@ gameMaps = [
   },
   {
     "name": [
+      "nspirit",
+      "nspiritj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "length": 9, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "mt_orun",
+      "outrun",
+      "outrunb",
+      "outrundx",
+      "outruno",
+      "outrunra"   
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "route", "length": 3},
+        {"name": "record", "length": 4}
+      ]
+    }
+  },
+  {
+    "name": [
+      "pacmania",
+      "pacmaniaj",
+      "sc4pmani",
+      "sc4pmania"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "stage", "length": 1, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "rtype",
       "rtypeb",
       "rtypej",
@@ -273,7 +369,12 @@ gameMaps = [
       "fields": [
         {"name": "trash", "length": 1},
         {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
-        {"name": "name", "length": 7, "format": "ascii"}
+        {"name": "name", "length": 7, "format": "ascii", "settings": {
+            "special": {
+              "3E": "♥"
+            }
+          }
+        }
       ]
     }
   },

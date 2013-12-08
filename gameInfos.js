@@ -452,6 +452,116 @@ gameInfos = [
     }
   },
   {
+    "name": "hcastle",
+    "fullName": "Haunted Castle (version M)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "hcastlej",
+    "fullName": "Akuma-Jou Dracula (Japan version P)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "hcastleo",
+    "fullName": "Haunted Castle (version K)",
+    "letter": "h",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "kungfub",
+    "fullName": "Kung-Fu Master (bootleg set 1)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kungfub2",
+    "fullName": "Kung-Fu Master (bootleg set 2)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kungfum",
+    "fullName": "Kung-Fu Master",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "kunfumd,
+    "fullName": "Kung-Fu Master (Data East)",
+    "letter": "k",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "name": "lwings",
+    "fullName": "Legendary Wings (US set 1)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwings2",
+    "fullName": "Legendary Wings (US set 2)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwingsb",
+    "fullName": "Legendary Wings (bootleg)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "lwingsj",
+    "fullName": "Ares no Tsubasa (Japan)",
+    "letter": "l",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",
@@ -475,6 +585,106 @@ gameInfos = [
     "name": "mt_beast",
     "fullName": "Altered Beast (Mega-Tech)",
     "letter": "a",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mt_orun",
+    "fullName": "Out Run (Mega-Tech, SMS based)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "nspirit",
+    "fullName": "Ninja Spirit",
+    "letter": "n",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "nspiritj",
+    "fullName": "Saigo no Nindou (Japan)",
+    "letter": "n",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrun",
+    "fullName": "Out Run (sitdown/upright, Rev B)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrunb",
+    "fullName": "Out Run (bootleg)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrundx",
+    "fullName": "Out Run (deluxe sitdown)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outruno",
+    "fullName": "Out Run (sitdown/upright)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "outrunra",
+    "fullName": "Out Run (sitdown/upright, Rev A)",
+    "letter": "o",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pacmania",
+    "fullName": "Pac-Mania",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pacmaniaj",
+    "fullName": "Pac-Mania (Japan)",
+    "letter": "p",
     "order": ["score", "name", "stage"],
     "sort": {
       "by": "score",
@@ -580,6 +790,26 @@ gameInfos = [
       "by": "score",
       "order": "desc"
    }
+  },
+  {
+    "name": "sc4pmani",
+    "fullName": "Pac Mania (Mazooma) (Scorpion 4) (set 1)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "sc4pmania",
+    "fullName": "Pac Mania (Mazooma) (Scorpion 4) (set 2)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   },
   {
     "name": "simpsons",
