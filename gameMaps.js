@@ -277,9 +277,13 @@ gameMaps = [
     "structure": {
       "blocks": 7,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs", "settings": { "append": "0"}},
-        {"name": "name", "length": 9, "format": "ascii"},
-        {"name": "trash", "length": 1}
+        {"name": "score", "length": 3, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "length": 10, "format": "ascii", "settings": {
+            "special": {
+              "2E": "&nbsp;"
+            }
+          }
+        }
       ]
     }
   },
