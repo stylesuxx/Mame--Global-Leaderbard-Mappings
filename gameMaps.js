@@ -411,16 +411,16 @@ gameMaps = [
             }
           }
         },
-        {"name": "trash", "length": 1},
+        {"name": "trash", "length": 2},
         {"name": "level", "length": 1, "format": "specialOnly", "settings": {
             "special": {
-              "0A": "easy",
-              "02": "normal",
-              "00": "hard"
+              "00": "easy",
+              "01": "normal",
+              "02": "hard"
             }
           }
         },
-        {"name": "trash", "length": 5}
+        {"name": "trash", "length": 4}
       ]
     }
   }
