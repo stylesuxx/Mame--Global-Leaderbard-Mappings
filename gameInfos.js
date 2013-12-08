@@ -160,7 +160,7 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
-  }, 
+  },
   {
     "name": "bubl2000",
     "fullName": "Bubble 2000",
@@ -620,12 +620,12 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
-  },  
+  },
   {
     "name": "spf2th",
     "fullName": "Super Puzzle Fighter II Turbo (Hispanic 960531)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"
@@ -635,27 +635,27 @@ gameInfos = [
     "name": "spf2t",
     "fullName": "Super Puzzle Fighter II Turbo (US 960620)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"
     }
-  },  
+  },
   {
     "name": "spf2xj",
     "fullName": "Super Puzzle Fighter II Turbo (Japan 960531)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"
     }
-  },  
+  },
   {
     "name": "spf2xjd",
     "fullName": "Super Puzzle Fighter II X (Japan 960531 Phoenix Edition) (bootleg)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"
@@ -665,7 +665,7 @@ gameInfos = [
     "name": "spf2ta",
     "fullName": "Super Puzzle Fighter II Turbo (Asia 960529)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"
@@ -675,7 +675,7 @@ gameInfos = [
     "name": "spf2td",
     "fullName": "Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)",
     "letter": "s",
-    "order": ["score", "name"],
+    "order": ["score", "name", "level", "char"],
     "sort": {
       "by": "score",
       "order": "desc"

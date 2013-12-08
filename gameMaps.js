@@ -283,7 +283,7 @@ gameMaps = [
       "rtype",
       "rtypeb",
       "rtypej",
-      "rtyoejp",
+      "rtypejp",
       "rtypeu"
     ],
     "structure": {
@@ -396,7 +396,7 @@ gameMaps = [
               "2D": " "
             }
           }
-        },         
+        },
         {"name": "trash", "length": 1},
         {"name": "char", "length": 1, "format": "specialOnly", "settings": {
             "special": {
