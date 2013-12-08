@@ -390,10 +390,10 @@ gameMaps = [
               "26": ".",
               "25": "?",
               "24": "!",
-              "2a": "←",
-              "2b": "&",
-              "2c": "=",
-              "2d": " "
+              "2A": "←",
+              "2B": "&",
+              "2C": "=",
+              "2D": " "
             }
           }
         },         
@@ -414,7 +414,7 @@ gameMaps = [
         {"name": "trash", "length": 1},
         {"name": "level", "length": 1, "format": "specialOnly", "settings": {
             "special": {
-              "0a": "easy",
+              "0A": "easy",
               "02": "normal",
               "00": "hard"
             }
