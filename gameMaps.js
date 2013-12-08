@@ -367,5 +367,61 @@ gameMaps = [
         {"name": "trash", "length": 1}
       ]
     }
+  },
+  {
+    "name": [
+      "spf2th",
+      "spf2t",
+      "spf2xj",
+      "spf2xjd",
+      "spf2ta",
+      "spf2td"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "score", "length": 4, "format": "hexToDecimal"},
+        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+            "charMap": "numericUpper",
+            "special": {
+              "29": "♥",
+              "28": ",",
+              "27": "-",
+              "26": ".",
+              "25": "?",
+              "24": "!",
+              "2A": "←",
+              "2B": "&",
+              "2C": "=",
+              "2D": " "
+            }
+          }
+        },         
+        {"name": "trash", "length": 1},
+        {"name": "char", "length": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Morrigan",
+              "01": "Chun-Li",
+              "02": "Ryu",
+              "03": "Ken",
+              "04": "Hsien-ko",
+              "05": "Donovan",
+              "06": "Felicia",
+              "07": "Sakura"
+            }
+          }
+        },
+        {"name": "trash", "length": 1},
+        {"name": "level", "length": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "0A": "easy",
+              "02": "normal",
+              "00": "hard"
+            }
+          }
+        },
+        {"name": "trash", "length": 5}
+      ]
+    }
   }
 ];
