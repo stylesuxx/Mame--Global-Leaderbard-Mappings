@@ -332,7 +332,7 @@ gameMaps = [
       "outrunra"
     ],
     "structure": {
-      "blocks": 20,
+      "blocks": 7,
       "fields": [
         {"name": "score", "length": 4, "format": "asIs"},
         {"name": "name", "length": 3, "format": "ascii"},
