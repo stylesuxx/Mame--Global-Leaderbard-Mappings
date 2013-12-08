@@ -246,7 +246,9 @@ gameMaps = [
         {"name": "stage", "length": 1, "format": "asIs"},
         {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
             "charMap": "upper",
-            "offset": "11"} 
+            "offset": "11"
+          }
+        }
       ]
     }
   },
@@ -327,7 +329,7 @@ gameMaps = [
       "outrunb",
       "outrundx",
       "outruno",
-      "outrunra"   
+      "outrunra"
     ],
     "structure": {
       "blocks": 20,

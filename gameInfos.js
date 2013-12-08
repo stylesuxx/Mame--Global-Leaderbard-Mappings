@@ -512,7 +512,7 @@ gameInfos = [
     }
   },
   {
-    "name": "kunfumd,
+    "name": "kunfumd",
     "fullName": "Kung-Fu Master (Data East)",
     "letter": "k",
     "order": ["score", "name"],
