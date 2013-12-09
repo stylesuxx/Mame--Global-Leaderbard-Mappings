@@ -339,7 +339,12 @@ gameMaps = [
       "blocks": 7,
       "fields": [
         {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "name", "length": 3, "format": "ascii", "settings": {
+ 	    "special": {
+              "5B": "."
+            }
+          }
+        },
         {"name": "route", "length": 3},
         {"name": "record", "length": 4}
       ]
