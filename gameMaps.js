@@ -253,6 +253,33 @@ gameMaps = [
   },
   {
     "name": [
+      "inthunt",
+      "inthuntu",
+      "kaiteids"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "reverseDecimal"},
+        {"name": "stars", "bytes": 1, "format": "hextoDecimal"},
+        {"name": "trash", "bytes": 1},
+        {"name": "stage", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "1",
+              "02": "2",
+              "04": "3",
+              "06": "4",
+            }
+          }
+        },
+	{"name": "trash", "bytes": 1},
+        {"name": "name", "bytes": 5, "format": "ascii", "settings": {"ignoreBytes": [2, 4]}},
+        {"name": "trash", "bytes": 3}
+      ]
+    }
+  },
+  {
+    "name": [
       "kungfub",
       "kungfub2",
       "kungfum",
@@ -337,26 +364,15 @@ gameMaps = [
     "structure": {
       "blocks": 20,
       "fields": [
-<<<<<<< HEAD
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii", "settings": {
- 	    "special": {
-=======
         {"name": "score", "bytes": 4, "format": "asIs"},
         {"name": "name", "bytes": 3, "format": "ascii", "settings": {
             "special": {
->>>>>>> upstream/master
               "5B": "."
             }
           }
         },
-<<<<<<< HEAD
-        {"name": "route", "length": 3},
-        {"name": "record", "length": 4}
-=======
         {"name": "route", "bytes": 3},
         {"name": "record", "bytes": 4}
->>>>>>> upstream/master
       ]
     }
   },

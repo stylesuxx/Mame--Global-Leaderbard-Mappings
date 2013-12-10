@@ -482,6 +482,36 @@ gameInfos = [
     }
   },
   {
+    "name": "inthunt",
+    "fullName": "In The Hunt (World)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "inthuntu",
+    "fullName": "In The Hunt (US)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "kaiteids",
+    "fullName": "In The Hunt (US)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "kungfub",
     "fullName": "Kung-Fu Master (bootleg set 1)",
     "letter": "k",
