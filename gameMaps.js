@@ -10,8 +10,8 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "score", "length": 8, "format": "bcd"},
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+        {"name": "score", "bytes": 8, "format": "bcd"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
             "charMap": "numericUpper",
             "special": {
               "24": " ",
@@ -24,7 +24,7 @@ gameMaps = [
             }
           }
         },
-        {"name": "separator", "length": 5}
+        {"name": "separator", "bytes": 5}
       ]
     }
   },
@@ -40,9 +40,9 @@ gameMaps = [
     "structure": {
       "blocks": 7,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "stage", "length": 1, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"}
       ]
     }
   },
@@ -58,11 +58,11 @@ gameMaps = [
     "structure": {
       "blocks": 50,
       "fields": [
-        {"name": "rank", "length": 1},
-        {"name": "trash", "length": 3},
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
+        {"name": "rank", "bytes": 1},
+        {"name": "trash", "bytes": 3},
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "character", "bytes": 1, "format": "specialOnly", "settings": {
             "special": {
               "00": "Predator Warrior",
               "01": "Maj. D. Schaefer",
@@ -71,8 +71,8 @@ gameMaps = [
             }
           }
         },
-        {"name": "level", "length": 1, "format": "asIs"},
-        {"name": "trash", "length": 3}
+        {"name": "level", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 3}
       ]
     }
   },
@@ -83,16 +83,16 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "score", "length": 4, "format": "hexToDecimal", "settings": {
+        {"name": "score", "bytes": 4, "format": "hexToDecimal", "settings": {
             "append": "00"
           }
         },
-        {"name": "trash", "length": 1},
-        {"name": "name", "length": 9, "format": "ascii", "settings": {
+        {"name": "trash", "bytes": 1},
+        {"name": "name", "bytes": 9, "format": "ascii", "settings": {
             "ignoreBytes": [1, 3, 5, 7]
           }
         },
-        {"name": "trash", "length": 2},
+        {"name": "trash", "bytes": 2}
       ]
     }
   },
@@ -104,10 +104,9 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "score", "length": 3, "format": "asIs", "settings": {"append": "0"}},
-        {"name": "round", "length": 1, "format": "hexToDecimal", "settings":{"add": 1}},
-        {"name": "name", "length": 3, "format": "ascii"},
-
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "round", "bytes": 1, "format": "hexToDecimal", "settings":{"add": 1}},
+        {"name": "name", "bytes": 3, "format": "ascii"}
       ]
     }
   },
@@ -121,10 +120,10 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1},
-        {"name": "character", "length": 1, "format": "specialOnly", "settings": {
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1},
+        {"name": "character", "bytes": 1, "format": "specialOnly", "settings": {
             "special": {
               "00": "Jack Tenrec",
               "01": "Mustapha Cairo",
@@ -133,8 +132,8 @@ gameMaps = [
             }
           }
         },
-        {"name": "level", "length": 1, "format": "asIs"},
-        {"name": "trash", "length": 6}
+        {"name": "level", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 6}
       ]
     }
   },
@@ -150,12 +149,12 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "UnusedA", "length": 2},
-        {"name": "Rank", "length": 1},
-        {"name": "UnusedB", "length": 4},
-        {"name": "score", "length": 6, "format": "bcd"},
-        {"name": "UnusedC", "length": 2},
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+        {"name": "UnusedA", "bytes": 2},
+        {"name": "Rank", "bytes": 1},
+        {"name": "UnusedB", "bytes": 4},
+        {"name": "score", "bytes": 6, "format": "bcd"},
+        {"name": "UnusedC", "bytes": 2},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
             "charMap": "upper",
             "offset": "11",
             "special": {
@@ -164,9 +163,9 @@ gameMaps = [
             }
           }
         },
-        {"name": "UnusedD", "length": 11},
-        {"name": "ShortScore", "length": 3},
-        {"name": "UnusedE", "length": 2}
+        {"name": "UnusedD", "bytes": 11},
+        {"name": "ShortScore", "bytes": 3},
+        {"name": "UnusedE", "bytes": 2}
       ]
     }
   },
@@ -179,11 +178,11 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "garbage", "length": 1},
-        {"name": "score", "length": 3, "format": "hexToDecimal"},
-        {"name": "comments", "length": 4},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1}
+        {"name": "garbage", "bytes": 1},
+        {"name": "score", "bytes": 3, "format": "hexToDecimal"},
+        {"name": "comments", "bytes": 4},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
       ]
     }
   },
@@ -202,9 +201,9 @@ gameMaps = [
     "structure": {
       "blocks": 3,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1}
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
       ]
     }
   },
@@ -217,12 +216,12 @@ gameMaps = [
       "skip": 6,
       "blocks": 8,
       "fields": [
-        {"name": "score", "length": 5, "format": "asIs"},
-        {"name": "trash", "length": 1},
-        {"name": "stage", "length": 1, "format": "asIs"},
-        {"name": "trash", "length": 1},
-        {"name": "dimension", "length": 1, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+        {"name": "score", "bytes": 5, "format": "asIs"},
+        {"name": "trash", "bytes": 1},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 1},
+        {"name": "dimension", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
             "charMap": "upper",
             "offset": 1,
             "special": {
@@ -242,9 +241,9 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 2, "format": "asIs", "settings":{ "append": "00"}},
-        {"name": "stage", "length": 1, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+        {"name": "score", "bytes": 2, "format": "asIs", "settings":{ "append": "00"}},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
             "charMap": "upper",
             "offset": "11"
           }
@@ -262,8 +261,8 @@ gameMaps = [
     "structure": {
       "blocks": 20,
       "fields": [
-        {"name": "score", "length": 3, "format": "asIs", "settings": { "append": "0"}},
-        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii"}
       ]
     }
   },
@@ -277,8 +276,8 @@ gameMaps = [
     "structure": {
       "blocks": 7,
       "fields": [
-        {"name": "score", "length": 3, "format": "asIs", "settings": { "append": "0"}},
-        {"name": "name", "length": 10, "format": "ascii", "settings": {
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": { "append": "0"}},
+        {"name": "name", "bytes": 10, "format": "ascii", "settings": {
             "special": {
               "2E": "&nbsp;"
             }
@@ -294,9 +293,9 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 3}
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 3}
       ]
     }
   },
@@ -307,9 +306,9 @@ gameMaps = [
     "structure": {
       "blocks": 9,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1}
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
       ]
     }
   },
@@ -321,8 +320,8 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
-        {"name": "name", "length": 9, "format": "ascii"}
+        {"name": "score", "bytes": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "bytes": 9, "format": "ascii"}
       ]
     }
   },
@@ -336,17 +335,28 @@ gameMaps = [
       "outrunra"
     ],
     "structure": {
-      "blocks": 7,
+      "blocks": 20,
       "fields": [
+<<<<<<< HEAD
         {"name": "score", "length": 4, "format": "asIs"},
         {"name": "name", "length": 3, "format": "ascii", "settings": {
  	    "special": {
+=======
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii", "settings": {
+            "special": {
+>>>>>>> upstream/master
               "5B": "."
             }
           }
         },
+<<<<<<< HEAD
         {"name": "route", "length": 3},
         {"name": "record", "length": 4}
+=======
+        {"name": "route", "bytes": 3},
+        {"name": "record", "bytes": 4}
+>>>>>>> upstream/master
       ]
     }
   },
@@ -360,9 +370,9 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 4, "format": "asIs", "settings": {"append": "0"}},
-        {"name": "stage", "length": 1, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"}
+        {"name": "score", "bytes": 4, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"}
       ]
     }
   },
@@ -378,9 +388,9 @@ gameMaps = [
       "skip": 3,
       "blocks": 10,
       "fields": [
-        {"name": "trash", "length": 1},
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
-        {"name": "name", "length": 7, "format": "ascii", "settings": {
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 3, "format": "reverseDecimal", "settings": {"append": "00"}},
+        {"name": "name", "bytes": 7, "format": "ascii", "settings": {
             "special": {
               "3E": "♥"
             }
@@ -397,8 +407,8 @@ gameMaps = [
     "structure": {
       "blocks": 7,
       "fields": [
-        {"name": "score", "length": 3, "format": "reverseDecimal", "settings": {"append": "0"}},
-        {"name": "name", "length": 5, "format": "ascii"}
+        {"name": "score", "bytes": 3, "format": "reverseDecimal", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 5, "format": "ascii"}
       ]
     }
   },
@@ -412,8 +422,8 @@ gameMaps = [
       "skip": 20,
       "blocks": 10,
       "fields": [
-        {"name": "score", "length": 3, "format": "reverseDecimal"},
-        {"name": "name", "length": 8, "format": "ascii"}
+        {"name": "score", "bytes": 3, "format": "reverseDecimal"},
+        {"name": "name", "bytes": 8, "format": "ascii"}
       ]
     }
   },
@@ -424,7 +434,7 @@ gameMaps = [
     "structure": {
       "blocks": 10,
       "fields": [
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings":{
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings":{
             "charMap": "upper",
             "offset": "41",
             "special": {
@@ -440,8 +450,8 @@ gameMaps = [
             }
           }
         },
-        {"name": "score", "length": 2, "format": "asIs"},
-        {"name": "trash", "length": 3}
+        {"name": "score", "bytes": 2, "format": "asIs"},
+        {"name": "trash", "bytes": 3}
       ]
     }
   },
@@ -454,10 +464,10 @@ gameMaps = [
     "structure": {
       "blocks": 8,
       "fields": [
-        {"name": "score", "length": 3, "format": "asIs", "settings": {"append": "00"}},
-        {"name": "stage", "length": 1, "format": "asIs"},
-        {"name": "name", "length": 3, "format": "ascii"},
-        {"name": "trash", "length": 1}
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "00"}},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
       ]
     }
   },
@@ -473,8 +483,8 @@ gameMaps = [
     "structure": {
       "blocks": 5,
       "fields": [
-        {"name": "score", "length": 4, "format": "hexToDecimal"},
-        {"name": "name", "length": 3, "format": "fromCharMap", "settings": {
+        {"name": "score", "bytes": 4, "format": "hexToDecimal"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
             "charMap": "upperNumeric",
             "special": {
               "29": "♥",
@@ -490,8 +500,8 @@ gameMaps = [
             }
           }
         },
-        {"name": "trash", "length": 1},
-        {"name": "char", "length": 1, "format": "specialOnly", "settings": {
+        {"name": "trash", "bytes": 1},
+        {"name": "char", "bytes": 1, "format": "specialOnly", "settings": {
             "special": {
               "00": "Morrigan",
               "01": "Chun-Li",
@@ -504,8 +514,8 @@ gameMaps = [
             }
           }
         },
-        {"name": "trash", "length": 2},
-        {"name": "level", "length": 1, "format": "specialOnly", "settings": {
+        {"name": "trash", "bytes": 2},
+        {"name": "level", "bytes": 1, "format": "specialOnly", "settings": {
             "special": {
               "00": "easy",
               "01": "normal",
@@ -513,7 +523,7 @@ gameMaps = [
             }
           }
         },
-        {"name": "trash", "length": 4}
+        {"name": "trash", "bytes": 4}
       ]
     }
   }
