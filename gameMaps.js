@@ -605,5 +605,19 @@ gameMaps = [
         {"name": "name", "bytes": 10, "format": "ascii"}
       ]
     }
+  },
+  {
+    "name": [
+      "unsquad"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "trash", "bytes": 3},
+        {"name": "score", "bytes": 5, "format": "bcd", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 5}
+      ]
+    }
   }
 ];

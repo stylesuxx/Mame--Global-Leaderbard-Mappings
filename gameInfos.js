@@ -1021,5 +1021,15 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
+  },
+  {
+    "name": "unsquad",
+    "fullName": "U.N. Squadron (USA)",
+    "letter": "u",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   }
 ];
