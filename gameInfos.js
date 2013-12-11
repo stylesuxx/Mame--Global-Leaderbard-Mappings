@@ -1131,12 +1131,22 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     },
-  }
+  },
    {
     "name": "youjyudn",
     "fullName": "Youjyuden (Japan)",
     "letter": "y",
     "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "zedblade",
+    "fullName": "Zed Blade / Operation Ragnarok",
+    "letter": "z",
+    "order": ["score", "name", "stage"],
     "sort": {
       "by": "score",
       "order": "desc"

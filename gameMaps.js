@@ -690,5 +690,27 @@ gameMaps = [
         }
       ]
     }
+  },
+  {
+    "name": [
+      "zedblade"
+    ],
+    "structure": {
+      "blocks":5,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "trash", "bytes": 1},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 5},
+        {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "ignoreBytes": [2,4],
+            "special": {
+              "1A": "."
+            }
+          }
+        }
+      ]
+    }
   }
 ];
