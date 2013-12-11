@@ -1131,6 +1131,7 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     },
+  }
    {
     "name": "youjyudn",
     "fullName": "Youjyuden (Japan)",
@@ -1140,6 +1141,5 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
-  }
   }
 ];
