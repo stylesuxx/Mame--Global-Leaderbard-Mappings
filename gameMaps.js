@@ -272,7 +272,7 @@ gameMaps = [
             }
           }
         },
-	{"name": "trash", "bytes": 1},
+        {"name": "trash", "bytes": 1},
         {"name": "name", "bytes": 5, "format": "ascii", "settings": {"ignoreBytes": [2, 4]}},
         {"name": "trash", "bytes": 3}
       ]
