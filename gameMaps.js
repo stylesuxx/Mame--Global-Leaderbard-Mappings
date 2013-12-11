@@ -650,5 +650,24 @@ gameMaps = [
         {"name": "trash", "bytes": 1}
       ]
     }
+  },
+  {
+    "name": [
+      "xexex",
+      "xexexa",
+      "xexexj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii", "settings": {
+            "special": {
+              "3D": "."
+            }
+        },
+        {"name": "trash", "bytes": 3}
+      ]
+    }
   }
 ];

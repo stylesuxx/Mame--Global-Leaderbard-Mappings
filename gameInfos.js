@@ -1101,5 +1101,35 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
+  },
+  {
+    "name": "xexex",
+    "fullName": "Xexex (ver EAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "xexexa",
+    "fullName": "Xexex (ver AAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "xexexj",
+    "fullName": "Xexex (ver JAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   }
 ];
