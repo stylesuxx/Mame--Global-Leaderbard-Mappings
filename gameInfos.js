@@ -753,6 +753,16 @@ gameInfos = [
     }
   },
   {
+    "name": "pc_trjan",
+    "fullName": "Trojan (PlayChoice-10)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "rtype",
     "fullName": "R-Type (World)",
     "letter": "r",
@@ -967,6 +977,36 @@ gameInfos = [
     "fullName": "Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)",
     "letter": "s",
     "order": ["score", "name", "level", "char"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojan",
+    "fullName": "Trojan (US)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojanj",
+    "fullName": "Tatakai no Banka (Japan)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojanr",
+    "fullName": "Trojan (Romstar)",
+    "letter": "t",
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"

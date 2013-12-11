@@ -577,5 +577,20 @@ gameMaps = [
         {"name": "trash", "bytes": 4}
       ]
     }
+  },
+  {
+    "name": [
+      "pc_trjan",
+      "trojan",
+      "trojanj",
+      "trojanr"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 10, "format": "ascii"}
+      ]
+    }
   }
 ];
