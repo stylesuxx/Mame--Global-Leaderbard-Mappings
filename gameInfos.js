@@ -1031,5 +1031,45 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
+  },
+  {
+    "name": "varth",
+    "fullName": "Varth: Operation Thunderstorm (World 920714)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthj",
+    "fullName": "Varth: Operation Thunderstorm (World 920714)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthr1",
+    "fullName": "Varth: Operation Thunderstorm (World 920612)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthu",
+    "fullName": "Varth: Operation Thunderstorm (USA 920612)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   }
 ];

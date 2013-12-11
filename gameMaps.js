@@ -619,5 +619,21 @@ gameMaps = [
         {"name": "trash", "bytes": 5}
       ]
     }
+  },
+  {
+    "name": [
+      "varth",
+      "varthj",
+      "varthr1",
+      "varthu"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "stage", "bytes": 1, "format": "asIs"}
+      ]
+    }
   }
 ];
