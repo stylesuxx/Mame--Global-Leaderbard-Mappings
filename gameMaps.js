@@ -328,6 +328,41 @@ gameMaps = [
   },
   {
     "name": [
+      "mmatrix",
+      "mmatrixd",
+      "mmatrixj"
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 6, "format": "asIs"},
+        {"name": "exp", "bytes": 4, "format": "asIs"},
+        {"name": "stage", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "1",
+              "01": "2",
+              "02": "3",
+              "03": "4",
+              "04": "5"
+              "05": "6",
+              "06": "ALL"
+            }
+          }
+        },
+        {"name": "ship", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Mosquito 01",
+              "01": "Mosquito 02"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": [
       "mslugx"
     ],
     "structure": {

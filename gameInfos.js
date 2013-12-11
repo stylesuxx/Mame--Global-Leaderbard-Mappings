@@ -592,6 +592,37 @@ gameInfos = [
     }
   },
   {
+    "name": "mmatrix",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (USA 000412)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mmatrixd",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (USA 000412 Phoenix Edition) (bootleg)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mmatrixj",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (Japan 000412)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+
+  {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
     "letter": "m",
