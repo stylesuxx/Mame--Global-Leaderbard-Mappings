@@ -1071,5 +1071,35 @@ gameInfos = [
       "by": "score",
       "order": "desc"
     }
+  },
+  {
+    "name": "willow",
+    "fullName": "Willow (USA)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "willowj",
+    "fullName": "Willow (Japan)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "willowo",
+    "fullName": "Willow (USA Old Ver.)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
   }
 ];

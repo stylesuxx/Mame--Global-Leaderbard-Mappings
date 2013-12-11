@@ -635,5 +635,20 @@ gameMaps = [
         {"name": "stage", "bytes": 1, "format": "asIs"}
       ]
     }
+  },
+  {
+    "name": [
+      "willow",
+      "willowj",
+      "willowo"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
+      ]
+    }
   }
 ];
