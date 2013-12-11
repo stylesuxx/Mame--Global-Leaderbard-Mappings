@@ -502,6 +502,16 @@ gameInfos = [
     }
   },
   {
+    "name": "jjack",
+    "fullName": "Jumping Jack",
+    "letter": "j",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "kaiteids",
     "fullName": "In The Hunt (US)",
     "letter": "i",

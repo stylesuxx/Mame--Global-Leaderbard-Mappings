@@ -280,6 +280,19 @@ gameMaps = [
   },
   {
     "name": [
+      "jjack"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 2}
+      ]
+    }
+  },
+  {
+    "name": [
       "kungfub",
       "kungfub2",
       "kungfum",
