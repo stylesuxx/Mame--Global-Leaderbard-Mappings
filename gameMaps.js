@@ -669,5 +669,26 @@ gameMaps = [
         {"name": "trash", "bytes": 3}
       ]
     }
+  },
+  {
+    "name": [
+      "youjyudn"
+    ],
+    "structure": {
+      "blocks":5,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "reverseDecimal", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 8, "format": "ascii", "settings": {
+            "special": {
+              "64": " ",
+              "5E": "♀",
+              "5D": "♂",
+              "5C": "!",
+              "5B": ".",
+            }
+          }
+        }
+      ]
+    }
   }
 ];
