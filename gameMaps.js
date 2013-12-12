@@ -78,6 +78,24 @@ gameMaps = [
   },
   {
     "name": [
+      "blktiger",
+      "blktigera",
+      "blktigerb1",
+      "blktigerb2"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 7, "format": "bcd", "settings": {"append": "0"}},
+        {"name": "trash", "bytes": 4},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "bubl2000"
     ],
     "structure": {

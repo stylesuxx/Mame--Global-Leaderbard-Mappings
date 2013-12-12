@@ -162,6 +162,46 @@ gameInfos = [
     }
   },
   {
+    "name": "blktiger",
+    "fullName": "Black Tiger",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigera",
+    "fullName": "Black Tiger (older)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigerb1",
+    "fullName": "Black Tiger (bootleg set 1)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigerb2",
+    "fullName": "Black Tiger (bootleg set 2)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "bubl2000",
     "fullName": "Bubble 2000",
     "letter": "b",
