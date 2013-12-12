@@ -759,7 +759,7 @@ gameMaps = [
         {"name": "trash", "bytes": 5},
         {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
             "charMap": "upper",
-            "ignoreBytes": [1,3],
+            "ignoreBytes": [1, 3],
             "special": {
               "1A": "."
             }
