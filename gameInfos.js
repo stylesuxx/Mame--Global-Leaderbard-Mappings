@@ -162,6 +162,76 @@ gameInfos = [
     }
   },
   {
+    "name": "bgaregga",
+    "fullName": "Battle Garegga (Europe/USA/Japan/Asia) (Sat Feb 3 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggabl",
+    "fullName": "1945 Part-2 (Chinese hack of Battle Garegga)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggacn",
+    "fullName": "Battle Garegga - Type 2 (Denmark/China) (Tue Apr 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggahk",
+    "fullName": "Battle Garegga (Austria/Hong Kong) (Sat Feb 3 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgaregganv",
+    "fullName": "Battle Garegga - New Version (Austria/Hong Kong) (Sat Mar 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggat2",
+    "fullName": "Battle Garegga - Type 2 (Europe/USA/Japan /Asia) (Sat Mar 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggatw",
+    "fullName": "Battle Garegga (Taiwan/Germany) (Thu Feb 1 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "blktiger",
     "fullName": "Black Tiger",
     "letter": "b",

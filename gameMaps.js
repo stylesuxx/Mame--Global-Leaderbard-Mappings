@@ -78,6 +78,42 @@ gameMaps = [
   },
   {
     "name": [
+      "bgaregga",
+      "bgareggabl",
+      "bgareggacn",
+      "bgareggahk",
+      "bgaregganv",
+      "bgareggat2",
+      "bgarregatw"
+    ],
+    "structure": {
+      "blocks": 8,
+      "fields": [
+        {"name": "trash", "bytes": 3},
+        {"name": "score", "bytes": 7, "format": "ascii"},
+        {"name": "trash", "bytes": 1},
+        {"name": "name", "bytes": 3, "format": "ascii", "settings": {
+          "special": {
+            "40": "‡"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 3},
+        {"name": "ship", "bytes": 1, "format": "specialOnly", "settings": {
+           "special": {
+             "61": "G-913",
+             "62": "G-1026",
+             "63": "G-130",
+             "64": "G-1010"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 6}
+      ]
+    }
+  },
+  {
+    "name": [
       "blktiger",
       "blktigera",
       "blktigerb1",
