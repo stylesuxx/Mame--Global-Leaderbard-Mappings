@@ -623,8 +623,8 @@ gameInfos = [
   },
   {
     "name": "kaiteids",
-    "fullName": "In The Hunt (US)",
-    "letter": "i",
+    "fullName": "Kaitei Daisensou (Japan)",
+    "letter": "k",
     "order": ["score", "name", "stars", "stage"],
     "sort": {
       "by": "score",

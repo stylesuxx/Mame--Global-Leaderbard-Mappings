@@ -84,7 +84,7 @@ gameMaps = [
       "bgareggahk",
       "bgaregganv",
       "bgareggat2",
-      "bgarregatw"
+      "bgareggatw"
     ],
     "structure": {
       "blocks": 10,
@@ -315,7 +315,7 @@ gameMaps = [
       "blocks": 10,
       "fields": [
         {"name": "score", "bytes": 4, "format": "reverseDecimal"},
-        {"name": "stars", "bytes": 1, "format": "hextoDecimal"},
+        {"name": "stars", "bytes": 1, "format": "hexToDecimal"},
         {"name": "trash", "bytes": 1},
         {"name": "stage", "bytes": 1, "format": "specialOnly", "settings": {
             "special": {
@@ -327,7 +327,7 @@ gameMaps = [
           }
         },
         {"name": "trash", "bytes": 1},
-        {"name": "name", "bytes": 5, "format": "ascii", "settings": {"ignoreBytes": [2, 4]}},
+        {"name": "name", "bytes": 5, "format": "ascii", "settings": {"ignoreBytes": [1, 3]}},
         {"name": "trash", "bytes": 3}
       ]
     }
@@ -412,7 +412,7 @@ gameMaps = [
               "01": "2",
               "02": "3",
               "03": "4",
-              "04": "5"
+              "04": "5",
               "05": "6",
               "06": "ALL"
             }
@@ -719,6 +719,7 @@ gameMaps = [
             "special": {
               "3D": "."
             }
+          }
         },
         {"name": "trash", "bytes": 3}
       ]
@@ -758,7 +759,7 @@ gameMaps = [
         {"name": "trash", "bytes": 5},
         {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
             "charMap": "upper",
-            "ignoreBytes": [2,4],
+            "ignoreBytes": [1,3],
             "special": {
               "1A": "."
             }
