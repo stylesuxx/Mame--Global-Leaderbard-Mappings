@@ -87,7 +87,7 @@ gameMaps = [
       "bgarregatw"
     ],
     "structure": {
-      "blocks": 8,
+      "blocks": 10,
       "fields": [
         {"name": "trash", "bytes": 3},
         {"name": "score", "bytes": 7, "format": "ascii"},
