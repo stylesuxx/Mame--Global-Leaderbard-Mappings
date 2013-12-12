@@ -162,6 +162,116 @@ gameInfos = [
     }
   },
   {
+    "name": "bgaregga",
+    "fullName": "Battle Garegga (Europe/USA/Japan/Asia) (Sat Feb 3 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggabl",
+    "fullName": "1945 Part-2 (Chinese hack of Battle Garegga)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggacn",
+    "fullName": "Battle Garegga - Type 2 (Denmark/China) (Tue Apr 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggahk",
+    "fullName": "Battle Garegga (Austria/Hong Kong) (Sat Feb 3 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgaregganv",
+    "fullName": "Battle Garegga - New Version (Austria/Hong Kong) (Sat Mar 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggat2",
+    "fullName": "Battle Garegga - Type 2 (Europe/USA/Japan /Asia) (Sat Mar 2 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bgareggatw",
+    "fullName": "Battle Garegga (Taiwan/Germany) (Thu Feb 1 1996)",
+    "letter": "b",
+    "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktiger",
+    "fullName": "Black Tiger",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigera",
+    "fullName": "Black Tiger (older)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigerb1",
+    "fullName": "Black Tiger (bootleg set 1)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "blktigerb2",
+    "fullName": "Black Tiger (bootleg set 2)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "bubl2000",
     "fullName": "Bubble 2000",
     "letter": "b",
@@ -482,6 +592,46 @@ gameInfos = [
     }
   },
   {
+    "name": "inthunt",
+    "fullName": "In The Hunt (World)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "inthuntu",
+    "fullName": "In The Hunt (US)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "jjack",
+    "fullName": "Jumping Jack",
+    "letter": "j",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "kaiteids",
+    "fullName": "In The Hunt (US)",
+    "letter": "i",
+    "order": ["score", "name", "stars", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "kungfub",
     "fullName": "Kung-Fu Master (bootleg set 1)",
     "letter": "k",
@@ -561,6 +711,37 @@ gameInfos = [
       "order": "desc"
     }
   },
+  {
+    "name": "mmatrix",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (USA 000412)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mmatrixd",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (USA 000412 Phoenix Edition) (bootleg)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "mmatrixj",
+    "fullName": "Mars Matrix: Hyper Solid Shooting (Japan 000412)",
+    "letter": "m",
+    "order": ["score", "name", "exp", "stage", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+
   {
     "name": "mslugx",
     "fullName": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
@@ -686,6 +867,16 @@ gameInfos = [
     "fullName": "Pac-Mania (Japan)",
     "letter": "p",
     "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pc_trjan",
+    "fullName": "Trojan (PlayChoice-10)",
+    "letter": "t",
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
@@ -906,6 +1097,166 @@ gameInfos = [
     "fullName": "Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)",
     "letter": "s",
     "order": ["score", "name", "level", "char"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojan",
+    "fullName": "Trojan (US)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojanj",
+    "fullName": "Tatakai no Banka (Japan)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "trojanr",
+    "fullName": "Trojan (Romstar)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "unsquad",
+    "fullName": "U.N. Squadron (USA)",
+    "letter": "u",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varth",
+    "fullName": "Varth: Operation Thunderstorm (World 920714)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthj",
+    "fullName": "Varth: Operation Thunderstorm (World 920714)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthr1",
+    "fullName": "Varth: Operation Thunderstorm (World 920612)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "varthu",
+    "fullName": "Varth: Operation Thunderstorm (USA 920612)",
+    "letter": "v",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "willow",
+    "fullName": "Willow (USA)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "willowj",
+    "fullName": "Willow (Japan)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "willowo",
+    "fullName": "Willow (USA Old Ver.)",
+    "letter": "w",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "xexex",
+    "fullName": "Xexex (ver EAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "xexexa",
+    "fullName": "Xexex (ver AAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "xexexj",
+    "fullName": "Xexex (ver JAA)",
+    "letter": "x",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    },
+  },
+   {
+    "name": "youjyudn",
+    "fullName": "Youjyuden (Japan)",
+    "letter": "y",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "zedblade",
+    "fullName": "Zed Blade / Operation Ragnarok",
+    "letter": "z",
+    "order": ["score", "name", "stage"],
     "sort": {
       "by": "score",
       "order": "desc"

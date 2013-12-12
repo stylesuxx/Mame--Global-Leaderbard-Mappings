@@ -78,6 +78,60 @@ gameMaps = [
   },
   {
     "name": [
+      "bgaregga",
+      "bgareggabl",
+      "bgareggacn",
+      "bgareggahk",
+      "bgaregganv",
+      "bgareggat2",
+      "bgarregatw"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "trash", "bytes": 3},
+        {"name": "score", "bytes": 7, "format": "ascii"},
+        {"name": "trash", "bytes": 1},
+        {"name": "name", "bytes": 3, "format": "ascii", "settings": {
+          "special": {
+            "40": "‡"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 3},
+        {"name": "ship", "bytes": 1, "format": "specialOnly", "settings": {
+           "special": {
+             "61": "G-913",
+             "62": "G-1026",
+             "63": "G-130",
+             "64": "G-1010"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 6}
+      ]
+    }
+  },
+  {
+    "name": [
+      "blktiger",
+      "blktigera",
+      "blktigerb1",
+      "blktigerb2"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 7, "format": "bcd", "settings": {"append": "0"}},
+        {"name": "trash", "bytes": 4},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "bubl2000"
     ],
     "structure": {
@@ -253,6 +307,46 @@ gameMaps = [
   },
   {
     "name": [
+      "inthunt",
+      "inthuntu",
+      "kaiteids"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "reverseDecimal"},
+        {"name": "stars", "bytes": 1, "format": "hextoDecimal"},
+        {"name": "trash", "bytes": 1},
+        {"name": "stage", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "1",
+              "02": "2",
+              "04": "3",
+              "06": "4"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 1},
+        {"name": "name", "bytes": 5, "format": "ascii", "settings": {"ignoreBytes": [2, 4]}},
+        {"name": "trash", "bytes": 3}
+      ]
+    }
+  },
+  {
+    "name": [
+      "jjack"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 2}
+      ]
+    }
+  },
+  {
+    "name": [
       "kungfub",
       "kungfub2",
       "kungfum",
@@ -296,6 +390,41 @@ gameMaps = [
         {"name": "score", "bytes": 4, "format": "asIs"},
         {"name": "name", "bytes": 3, "format": "ascii"},
         {"name": "trash", "bytes": 3}
+      ]
+    }
+  },
+  {
+    "name": [
+      "mmatrix",
+      "mmatrixd",
+      "mmatrixj"
+    ],
+    "structure": {
+      "blocks": 20,
+      "fields": [
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 6, "format": "asIs"},
+        {"name": "exp", "bytes": 4, "format": "asIs"},
+        {"name": "stage", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "1",
+              "01": "2",
+              "02": "3",
+              "03": "4",
+              "04": "5"
+              "05": "6",
+              "06": "ALL"
+            }
+          }
+        },
+        {"name": "ship", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "00": "Mosquito 01",
+              "01": "Mosquito 02"
+            }
+          }
+        }
       ]
     }
   },
@@ -513,6 +642,128 @@ gameMaps = [
           }
         },
         {"name": "trash", "bytes": 4}
+      ]
+    }
+  },
+  {
+    "name": [
+      "pc_trjan",
+      "trojan",
+      "trojanj",
+      "trojanr"
+    ],
+    "structure": {
+      "blocks": 7,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 10, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "unsquad"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "trash", "bytes": 3},
+        {"name": "score", "bytes": 5, "format": "bcd", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 5}
+      ]
+    }
+  },
+  {
+    "name": [
+      "varth",
+      "varthj",
+      "varthr1",
+      "varthu"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "stage", "bytes": 1, "format": "asIs"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "willow",
+      "willowj",
+      "willowo"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"},
+        {"name": "trash", "bytes": 1}
+      ]
+    }
+  },
+  {
+    "name": [
+      "xexex",
+      "xexexa",
+      "xexexj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii", "settings": {
+            "special": {
+              "3D": "."
+            }
+        },
+        {"name": "trash", "bytes": 3}
+      ]
+    }
+  },
+  {
+    "name": [
+      "youjyudn"
+    ],
+    "structure": {
+      "blocks":5,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "reverseDecimal", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 8, "format": "ascii", "settings": {
+            "special": {
+              "64": " ",
+              "5E": "♀",
+              "5D": "♂",
+              "5C": "!",
+              "5B": ".",
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": [
+      "zedblade"
+    ],
+    "structure": {
+      "blocks":5,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "trash", "bytes": 1},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 5},
+        {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "ignoreBytes": [2,4],
+            "special": {
+              "1A": "."
+            }
+          }
+        }
       ]
     }
   }
