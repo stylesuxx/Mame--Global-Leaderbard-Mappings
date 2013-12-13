@@ -69,6 +69,31 @@ gameMaps = [
   },
   {
     "name": [
+      "asterix",
+      "asterixaad",
+      "asterixeaa",
+      "asterixj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
+            "charMap": "numericCharUpper"
+          }
+        },
+        {"name": "character", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "01": "Asterix",
+              "02": "Obelix"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": [
       "avsp",
       "avspa",
       "avspd",

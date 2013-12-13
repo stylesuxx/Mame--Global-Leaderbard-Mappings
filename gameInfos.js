@@ -192,6 +192,46 @@ gameInfos = [
     }
   },
   {
+    "name": "asterix",
+    "fullName": "Asterix (ver EAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixaad",
+    "fullName": "Asterix (ver AAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixeaa",
+    "fullName": "Asterix (ver EAA)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixj",
+    "fullName": "Asterix (ver JAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "avsp",
     "fullName": "Alien vs. Predator (Euro 940520)",
     "letter": "a",
