@@ -102,6 +102,96 @@ gameInfos = [
     }
   },
   {
+    "name": "ark1ball",
+    "fullName": "Arkanoid (bootleg with MCU, harder)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkangc",
+    "fullName": "Arkanoid (Game Corporation bootleg, set 1)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkangc2",
+    "fullName": "Arkanoid (Game Corporation bootleg, set 2)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoid",
+    "fullName": "Arkanoid (World)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoidj",
+    "fullName": "Arkanoid (Japan)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoidjo",
+    "fullName": "Arkanoid (Japan, older)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkatayt",
+    "fullName": "Arkanoid (Tayto bootleg)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkgcbl",
+    "fullName": "Arkanoid (bootleg on Block hardware, set 1)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkgcbla",
+    "fullName": "Arkanoid (bootleg on Block hardware, set 2)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "avsp",
     "fullName": "Alien vs. Predator (Euro 940520)",
     "letter": "a",

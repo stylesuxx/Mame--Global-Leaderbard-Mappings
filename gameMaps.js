@@ -48,6 +48,27 @@ gameMaps = [
   },
   {
     "name": [
+      "ark1ball",
+      "arkangc",
+      "arkangc2",
+      "arkanoid",
+      "arkanoidj",
+      "arkanoidjo",
+      "arkatayt",
+      "arkgcbl",
+      "arkgcbla"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "round", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
       "avsp",
       "avspa",
       "avspd",
