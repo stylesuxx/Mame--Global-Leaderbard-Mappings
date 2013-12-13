@@ -649,7 +649,7 @@ gameMaps = [
     "name": [
       "bigbang",
       "tdragon2",
-      "tdragnon2a"
+      "tdragon2a"
     ],
     "structure": {
       "blocks": 9,
