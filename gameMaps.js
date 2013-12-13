@@ -647,6 +647,26 @@ gameMaps = [
   },
   {
     "name": [
+      "bigbang",
+      "tdragon2",
+      "tdragnon2a"
+    ],
+    "structure": {
+      "blocks": 9,
+      "fields": [
+        {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "ignoreBytes": [1, 3]
+          }
+        },
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 5, "format": "asIs"},
+        {"name": "trash", "bytes": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "pc_trjan",
       "trojan",
       "trojanj",

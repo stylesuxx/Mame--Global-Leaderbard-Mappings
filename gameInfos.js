@@ -232,6 +232,16 @@ gameInfos = [
     }
   },
   {
+    "name": "bigbang",
+    "fullName": "Big Bang (9th Nov. 1993)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "blktiger",
     "fullName": "Black Tiger",
     "letter": "b",
@@ -1097,6 +1107,26 @@ gameInfos = [
     "fullName": "Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)",
     "letter": "s",
     "order": ["score", "name", "level", "char"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "tdragon2",
+    "fullName": "Thunder Dragon 2 (9th Nov. 1993)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "tdragon2a",
+    "fullName": "Thunder Dragon 2 (1st Oct. 1993)",
+    "letter": "t",
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
