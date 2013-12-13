@@ -542,6 +542,25 @@ gameMaps = [
   },
   {
     "name": [
+      "pang",
+      "pangba"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii",  "settings": {
+            "special": {
+              "7B": "·"
+            }
+          }},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 9}
+      ]
+    }
+  },
+  {
+    "name": [
       "rtype",
       "rtypeb",
       "rtypej",

@@ -1013,6 +1013,26 @@ gameInfos = [
     }
   },
   {
+    "name": "pang",
+    "fullName": "Pang (World)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pangba",
+    "fullName": "Pang (bootleg, set 3)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "pc_trjan",
     "fullName": "Trojan (PlayChoice-10)",
     "letter": "t",
