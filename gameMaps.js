@@ -48,6 +48,52 @@ gameMaps = [
   },
   {
     "name": [
+      "ark1ball",
+      "arkangc",
+      "arkangc2",
+      "arkanoid",
+      "arkanoidj",
+      "arkanoidjo",
+      "arkatayt",
+      "arkgcbl",
+      "arkgcbla"
+    ],
+    "structure": {
+      "blocks": 5,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "round", "bytes": 1, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "ascii"}
+      ]
+    }
+  },
+  {
+    "name": [
+      "asterix",
+      "asterixaad",
+      "asterixeaa",
+      "asterixj"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 4, "format": "asIs"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
+            "charMap": "numericCharUpper"
+          }
+        },
+        {"name": "character", "bytes": 1, "format": "specialOnly", "settings": {
+            "special": {
+              "01": "Asterix",
+              "02": "Obelix"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": [
       "avsp",
       "avspa",
       "avspd",
@@ -512,6 +558,25 @@ gameMaps = [
   },
   {
     "name": [
+      "pang",
+      "pangba"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 3, "format": "asIs", "settings": {"append": "0"}},
+        {"name": "name", "bytes": 3, "format": "ascii",  "settings": {
+            "special": {
+              "7B": "·"
+            }
+          }},
+        {"name": "stage", "bytes": 1, "format": "asIs"},
+        {"name": "trash", "bytes": 9}
+      ]
+    }
+  },
+  {
+    "name": [
       "rtype",
       "rtypeb",
       "rtypej",
@@ -658,6 +723,26 @@ gameMaps = [
           }
         },
         {"name": "trash", "bytes": 4}
+      ]
+    }
+  },
+  {
+    "name": [
+      "bigbang",
+      "tdragon2",
+      "tdragon2a"
+    ],
+    "structure": {
+      "blocks": 9,
+      "fields": [
+        {"name": "name", "bytes": 5, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "ignoreBytes": [1, 3]
+          }
+        },
+        {"name": "trash", "bytes": 1},
+        {"name": "score", "bytes": 5, "format": "asIs"},
+        {"name": "trash", "bytes": 1}
       ]
     }
   },

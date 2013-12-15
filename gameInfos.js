@@ -102,6 +102,136 @@ gameInfos = [
     }
   },
   {
+    "name": "ark1ball",
+    "fullName": "Arkanoid (bootleg with MCU, harder)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkangc",
+    "fullName": "Arkanoid (Game Corporation bootleg, set 1)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkangc2",
+    "fullName": "Arkanoid (Game Corporation bootleg, set 2)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoid",
+    "fullName": "Arkanoid (World)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoidj",
+    "fullName": "Arkanoid (Japan)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkanoidjo",
+    "fullName": "Arkanoid (Japan, older)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkatayt",
+    "fullName": "Arkanoid (Tayto bootleg)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkgcbl",
+    "fullName": "Arkanoid (bootleg on Block hardware, set 1)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "arkgcbla",
+    "fullName": "Arkanoid (bootleg on Block hardware, set 2)",
+    "letter": "a",
+    "order": ["score", "name", "round"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterix",
+    "fullName": "Asterix (ver EAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixaad",
+    "fullName": "Asterix (ver AAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixeaa",
+    "fullName": "Asterix (ver EAA)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "asterixj",
+    "fullName": "Asterix (ver JAD)",
+    "letter": "a",
+    "order": ["score", "name", "character"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "avsp",
     "fullName": "Alien vs. Predator (Euro 940520)",
     "letter": "a",
@@ -226,6 +356,16 @@ gameInfos = [
     "fullName": "Battle Garegga (Taiwan/Germany) (Thu Feb 1 1996)",
     "letter": "b",
     "order": ["score", "name", "ship"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "bigbang",
+    "fullName": "Big Bang (9th Nov. 1993)",
+    "letter": "b",
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
@@ -873,6 +1013,26 @@ gameInfos = [
     }
   },
   {
+    "name": "pang",
+    "fullName": "Pang (World)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "pangba",
+    "fullName": "Pang (bootleg, set 3)",
+    "letter": "p",
+    "order": ["score", "name", "stage"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "pc_trjan",
     "fullName": "Trojan (PlayChoice-10)",
     "letter": "t",
@@ -1137,6 +1297,26 @@ gameInfos = [
     "fullName": "Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)",
     "letter": "s",
     "order": ["score", "name", "level", "char"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "tdragon2",
+    "fullName": "Thunder Dragon 2 (9th Nov. 1993)",
+    "letter": "t",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "name": "tdragon2a",
+    "fullName": "Thunder Dragon 2 (1st Oct. 1993)",
+    "letter": "t",
+    "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
