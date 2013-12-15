@@ -493,6 +493,22 @@ gameMaps = [
         {"name": "name", "bytes": 3, "format": "ascii"}
       ]
     }
+  },  
+  {
+    "name": [
+      "quartet",
+      "quarteta",
+      "quartet2a",
+      "quartet2"
+    ],
+    "structure": {
+      "blocks": ,
+      "fields": [
+        {"name": "score", "length": 4, "format": "asIs"},
+        {"name": "name", "length": 3, "format": "ascii"},
+        {"name": "trash", "length": 1}
+      ]
+    }
   },
   {
     "name": [
