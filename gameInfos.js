@@ -885,37 +885,37 @@ gameInfos = [
     {
     "name": "quartet",
     "fullName": "Quartet (Rev A, 8751 315-5194)",
-    "letter": "m",
+    "letter": "q",
     "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
     }
-  }, 
+  },
   {
     "name": "quarteta",
     "fullName": "Quartet (8751 315-5194)",
-    "letter": "m",
+    "letter": "q",
     "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
     }
-  },  
+  },
   {
     "name": "quartet2a",
     "fullName": "Quartet 2 (unprotected)",
-    "letter": "m",
+    "letter": "q",
     "order": ["score", "name"],
     "sort": {
       "by": "score",
       "order": "desc"
     }
-  },  
+  },
   {
     "name": "quartet2",
     "fullName": "Quartet 2 (8751 317-0010)",
-    "letter": "m",
+    "letter": "q",
     "order": ["score", "name"],
     "sort": {
       "by": "score",
