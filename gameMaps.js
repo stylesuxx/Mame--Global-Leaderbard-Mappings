@@ -160,6 +160,27 @@ gameMaps = [
   },
   {
     "name": [
+      "blazeon"
+    ],
+    "structure": {
+      "blocks": 10,
+      "fields": [
+        {"name": "score", "bytes": 8, "format": "bcd"},
+        {"name": "name", "bytes": 3, "format": "fromCharMap", "settings": {
+            "charMap": "upper",
+            "special": {
+              "1A": " ",
+              "1B": ".",
+              "1C": "-"
+            }
+          }
+        },
+        {"name": "trash", "bytes": 1}
+      ]
+    }
+  },
+  {
+    "name": [
       "blktiger",
       "blktigera",
       "blktigerb1",

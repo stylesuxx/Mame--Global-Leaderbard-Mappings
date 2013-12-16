@@ -372,6 +372,16 @@ gameInfos = [
     }
   },
   {
+    "name": "blazeon",
+    "fullName": "Blaze On (Japan)",
+    "letter": "b",
+    "order": ["score", "name"],
+    "sort": {
+      "by": "score",
+      "order": "desc"
+    }
+  },
+  {
     "name": "blktiger",
     "fullName": "Black Tiger",
     "letter": "b",
